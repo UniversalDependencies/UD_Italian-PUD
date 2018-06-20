@@ -1,15 +1,11 @@
-Sun Feb 11 20:44:32 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Italian-PUD
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Italian-PUD:
-commit 313b8fea13e1be4545e98a548a181d7c2f0df284
+commit 71eb1be4a4835db7acf1b6f09d9267a06430bb3c
+Merge: f164498 6564b91
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 14:01:26 2017 +0100
 Size: counted 23729 of 23729 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.33339585761924.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,17 +21,18 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi: found 5699 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23729 words.
-Genres: found 2 out of 14 known.
+Genres: found 2 out of 17 known.
+validate.py --lang it --max-err=10 UD_Italian-PUD/it_pud-ud-test.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
+(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.458426478778825) = 0.117545250968929
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.352495780037106) * (availability=1) * (validity=1) = 0.352495780037106
+(TOTAL score=0.350556542803751) * (availability=1) * (validity=1) = 0.350556542803751
 STARS = 2
-UD_Italian-PUD	0.352495780037106	2
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Italian-PUD	0.350556542803751	2
