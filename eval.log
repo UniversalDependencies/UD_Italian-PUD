@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Italian-PUD:
-commit 71eb1be4a4835db7acf1b6f09d9267a06430bb3c
-Merge: f164498 6564b91
+commit a879b85908093a21417085995c6c81dcbda0cf70
+Merge: 7af9904 e19c99d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 23729 of 23729 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.33339585761924.
