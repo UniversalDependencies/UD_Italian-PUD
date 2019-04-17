@@ -176,7 +176,7 @@
 1	Le	il	DET	DT	Gender=Fem|Number=Plur	3	det	_	_
 2	nuove	nuovo	ADJ	JJ	Gender=Fem|Number=Plur	3	amod	_	_
 3	spese	spesa	NOUN	NN	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
-4	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
+4	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
 5	alimentate	alimentare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 6-7	dal	_	_	_	_	_	_	_	_
 6	da	da	ADP	IN	_	9	case	_	_
@@ -282,8 +282,8 @@
 # text_en = The gathering was originally slated for Washington’s private Metropolitan Club on H Street a few blocks away.
 1	L'	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No
 2	incontro	incontro	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
-3	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
-4	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	6	aux:pass	_	_
+3	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
+4	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	6	aux:pass	_	_
 5	inizialmente	inizialmente	ADV	RB	_	6	advmod	_	_
 6	organizzato	organizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 7	per	per	ADP	IN	_	9	case	_	_
@@ -316,7 +316,7 @@
 4	richiesto	richiedere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	3	acl	_	_
 5	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	_
 6	un	uno	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
-7	po'	po'	NOUN	NN	Gender=Masc|Number=Sing	10	advmod	_	_
+7	po'	poco	ADV	B	_	10	advmod	_	_
 8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
 8	a	a	ADP	IN	_	10	case	_	_
 9	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -551,7 +551,7 @@
 # text = Si è registrata una crescita costante negli anni - solo l'11% del voto totale è stato espresso nel 1996 prima del giorno delle elezioni, secondo l'ufficio del censimento - e sembra probabile che cresca di nuovo quest'anno.
 # text_en = That share has been rising steadily over the years — only 11 percent of the total vote was cast before Election Day in 1996, according to the Census Bureau  -- and seems likely to jump again this year.
 1	Si	si	PRON	SE	Number=Sing|Person=3	3	expl	_	_
-2	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux:pass	_	_
+2	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux:pass	_	_
 3	registrata	registrare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 4	una	uno	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	crescita	crescita	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
@@ -570,8 +570,8 @@
 16	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	voto	voto	NOUN	NN	Gender=Masc|Number=Sing	14	nmod	_	_
 18	totale	totale	ADJ	JJ	Gender=Masc|Number=Sing	17	amod	_	_
-19	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	aux:pass	_	_
-20	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	21	aux:pass	_	_
+19	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	aux:pass	_	_
+20	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	21	aux:pass	_	_
 21	espresso	esprimere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	parataxis	_	_
 22-23	nel	_	_	_	_	_	_	_	_
 22	in	in	ADP	IN	_	24	case	_	_
@@ -641,7 +641,7 @@
 11	che	che	SCONJ	IN	_	15	mark	_	_
 12	lo	il	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	zoo	zoo	NOUN	NN	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
-14	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux:pass	_	_
+14	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux:pass	_	_
 15	popolato	popolare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	9	ccomp	_	_
 16	da	da	ADP	IN	_	18	case	_	_
 17	diverse	diverso	DET	DT	Gender=Fem|Number=Plur	18	det	_	_
@@ -689,8 +689,8 @@
 # sent_id = n01011004
 # text = È stata anche accusata del tentato omicidio della figlia di due anni.
 # text_en = She has also been charged with trying to kill her two-year-old daughter.
-1	È	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
-2	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	aux:pass	_	_
+1	È	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
+2	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	4	aux:pass	_	_
 3	anche	anche	ADV	RB	_	4	advmod	_	_
 4	accusata	accusare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 5-6	del	_	_	_	_	_	_	_	_
@@ -800,7 +800,7 @@
 11	americana	americano	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	Proper=True
 12	dopo	dopo	ADP	IN	_	15	mark	_	_
 13	essere	essere	AUX	VB	Voice=Pass	15	aux	_	_
-14	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	15	aux:pass	_	_
+14	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	15	aux:pass	_	_
 15	licenziato	licenziare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	advcl	_	_
 16	a	a	ADP	IN	_	17	case	_	_
 17	luglio	luglio	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
@@ -1250,8 +1250,8 @@
 8	dieci	dieci	NUM	CD	_	9	nummod	_	_
 9	settimane	settimana	NOUN	NN	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	_	_
-11	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	aux:pass	_	_
-12	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	14	aux:pass	_	_
+11	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	aux:pass	_	_
+12	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	14	aux:pass	_	_
 13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 14	certificato	certificato	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	SpaceAfter=No
 15	"	"	PUNCT	''	_	14	punct	_	_
@@ -1399,7 +1399,7 @@
 1	Sfortunatamente	sfortunatamente	ADV	RB	_	10	advmod	_	_
 2	ancora	ancora	ADV	RB	_	4	advmod	_	_
 3	una	uno	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
-4	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	10	advmod	_	_
+4	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 5	per	per	ADP	IN	_	6	case	_	_
 6	colpa	colpa	NOUN	NN	Gender=Fem|Number=Sing	10	obl	_	_
 7	di	di	ADP	IN	_	8	case	_	_
@@ -1503,8 +1503,8 @@
 7	provocare	provocare	VERB	VB	Voice=Act	12	advcl	_	_
 8	l'	il	DET	DT	Gender=Fem|Number=Sing	9	det	_	SpaceAfter=No
 9	interruzione	interruzione	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
-10	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
-11	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	12	aux:pass	_	_
+10	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
+11	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	12	aux:pass	_	_
 12	usata	usare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	ccomp	_	_
 13	una	uno	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
 14	grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	15	amod	_	_
@@ -1739,8 +1739,8 @@
 # text_en = It was conducted just off the Mexican coast from April to June.
 1	Il	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	progetto	progetto	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-3	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
-4	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	aux:pass	_	_
+3	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
+4	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	5	aux:pass	_	_
 5	condotto	condurre	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	da	da	ADP	IN	_	7	case	_	_
 7	aprile	aprile	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -1901,7 +1901,7 @@
 17	di	di	ADP	IN	_	18	case	_	_
 18	rucola	rucola	NOUN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
 19	possono	potere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	_
-20	essere	essere	VERB	VB	Voice=Pass	21	aux:pass	_	_
+20	essere	essere	AUX	VB	Voice=Pass	21	aux:pass	_	_
 21	trasportati	trasportare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	12	acl:relcl	_	_
 22-23	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 22	in	in	ADP	IN	_	24	case	_	_
@@ -2001,7 +2001,7 @@
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	i	il	DET	DT	Gender=Masc|Number=Plur	5	det	_	_
 5	capelli	capello	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
-6	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
+6	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
 7	solitamente	solito	ADV	RB	_	8	advmod	_	_
 8	sottoposti	sottoporre	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 9	a	a	ADP	IN	_	11	case	_	_
@@ -2041,9 +2041,9 @@
 11	di	di	ADP	IN	_	13	case	_	_
 12	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	capelli	capello	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	_
-14	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
+14	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
 15	sempre	sempre	ADV	RB	_	17	advmod	_	_
-16	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	17	aux:pass	_	_
+16	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	17	aux:pass	_	_
 17	caratterizzata	caratterizzare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 18	da	da	ADP	IN	_	20	case	_	_
 19	una	uno	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
@@ -2227,7 +2227,7 @@
 22	"	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
 23	decisamente	deciso	ADV	RB	_	24	advmod	_	_
 24	ragionevoli	ragionevole	ADJ	JJ	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
-25	"	"	ADV	RB	_	24	punct	_	SpaceAfter=No
+25	"	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01029007
@@ -2363,8 +2363,8 @@
 26	"	"	PUNCT	''	_	25	punct	_	_
 27	ma	ma	CCONJ	CC	_	31	cc	_	_
 28	non	non	ADV	RB	Polarity=Neg	31	advmod	_	_
-29	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	31	aux	_	_
-30	stati	essere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	31	aux:pass	_	_
+29	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	31	aux	_	_
+30	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	31	aux:pass	_	_
 31	riportati	riportare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	14	conj	_	_
 32	feriti	ferito	NOUN	NN	Gender=Masc|Number=Plur	31	nsubj:pass	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	6	punct	_	_
@@ -2372,8 +2372,8 @@
 # sent_id = n01030006
 # text = È stato riferito che Cuaron, vincitore del premio Oscar grazie al suo ultimo film Gravity, non si trovava sul set al momento dell'incidente.
 # text_en = Cuaron, whose last film was the Oscar-winning Gravity, was reportedly not on set at the time of the incident.
-1	È	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
-2	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
+1	È	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
+2	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
 3	riferito	riferire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	che	che	SCONJ	IN	_	21	mark	_	_
 5	Cuaron	Cuaron	PROPN	NNP	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
@@ -2444,7 +2444,7 @@
 28	gruppo	gruppo	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	_
 29	di	di	ADP	IN	_	30	case	_	_
 30	persone	persona	NOUN	NN	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
-31	…	…	X	NFP	_	30	punct	_	OrigForm=...
+31	…	…	PUNCT	NFP	_	30	punct	_	OrigForm=...
 32	che	che	PRON	WP	Gender=Fem|Number=Plur	35	nsubj	_	_
 33	si	si	PRON	SE	Number=Plur|Person=3	35	expl	_	_
 34	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	aux	_	_
@@ -2452,7 +2452,7 @@
 36	come	come	ADP	IN	_	37	case	_	_
 37	autorità	autorità	NOUN	NN	Gender=Fem|Number=Plur	35	obl	_	_
 38	pubbliche	pubblico	ADJ	JJ	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
-39	"	"	PUNCT	''	_	28	punct	_	_
+39	"	"	PUNCT	''	_	35	punct	_	_
 40	lo	lo	DET	DT	Gender=Masc|Number=Sing	42	det	_	_
 41	scorso	scorso	ADJ	JJ	Gender=Masc|Number=Sing	42	amod	_	_
 42	martedì	martedì	NOUN	NN	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
@@ -2648,7 +2648,7 @@
 21	,	,	PUNCT	,	_	25	punct	_	_
 22	che	che	PRON	WP	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
 23	non	non	ADV	RB	Polarity=Neg	25	advmod	_	_
-24	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
+24	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
 25	esposti	esporre	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	14	acl:relcl	_	_
 26	direttamente	diretto	ADV	RB	_	25	advmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	_	_
@@ -2690,15 +2690,15 @@
 13	di	di	ADP	IN	_	14	case	_	_
 14	Ms	Ms	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
 15	Pugh	Pugh	PROPN	NNP	Gender=Fem|Number=Sing	14	flat	_	_
-16	sta	sta	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	_
+16	sta	stare	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	_
 17	crescendo	crescere	VERB	VBG	Voice=Act	5	ccomp	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	e	e	CCONJ	CC	_	25	cc	_	_
 20	per	per	ADP	IN	_	22	case	_	_
 21	questa	questo	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	ragione	ragione	NOUN	NN	Gender=Fem|Number=Sing	25	obl	_	_
-23	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
-24	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	25	aux:pass	_	_
+23	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
+24	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	25	aux:pass	_	_
 25	costretta	costringere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	17	conj	_	_
 26	ad	ad	ADP	IN	_	27	mark	_	_
 27	abbandonare	abbandonare	VERB	VB	Voice=Act	25	xcomp	_	_
@@ -2747,7 +2747,7 @@
 34	di	di	ADP	E	_	36	case	_	_
 35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	Canada	Canada	PROPN	NNP	Gender=Masc|Number=Sing	30	nmod	_	_
-37	siano	essere	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Pass	38	aux:pass	_	_
+37	siano	essere	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Pass	38	aux:pass	_	_
 38	rappresentati	rappresentare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	27	ccomp	_	_
 39	a	a	ADP	IN	_	40	case	_	_
 40	Washington	Washington	PROPN	NNP	Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
@@ -2772,7 +2772,7 @@
 12	Uniti	Uniti	PROPN	NNP	Gender=Masc|Number=Plur	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	chiunque	chiunque	PRON	WP	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
-15	sia	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	aux:pass	_	_
+15	sia	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	aux:pass	_	_
 16	eletto	eleggere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	2	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -2948,7 +2948,7 @@
 9	afferma	affermare	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 10	che	che	SCONJ	IN	_	13	mark	_	_
 11	deve	dovere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	_
-12	essere	essere	VERB	VB	Voice=Pass	13	aux:pass	_	_
+12	essere	essere	AUX	VB	Voice=Pass	13	aux:pass	_	_
 13	fatto	fare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	9	ccomp	_	_
 14	di	di	ADP	IN	_	15	case	_	_
 15	più	più	ADV	RBR	_	13	obj	_	_
@@ -3059,7 +3059,7 @@
 23	come	come	ADP	IN	_	24	case	_	_
 24	Pechino	Pechino	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	31	punct	_	_
-26	dove	dove	PRON	WP	_	31	advmod	_	_
+26	dove	dove	ADV	RB	_	31	advmod	_	_
 27	ogni	ogni	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
 28	giorno	giorno	NOUN	NN	Gender=Masc|Number=Sing	31	obl	_	_
 29	lo	il	DET	DT	Gender=Masc|Number=Sing	30	det	_	_
@@ -3095,7 +3095,7 @@
 12	India	India	PROPN	NNP	Gender=Fem|Number=Sing	8	conj	_	_
 13	e	e	CCONJ	CC	_	14	cc	_	_
 14	Cina	Cina	PROPN	NNP	Gender=Fem|Number=Sing	8	conj	_	_
-15	stanno	stanno	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	_
+15	stanno	stare	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	_
 16	facendo	fare	VERB	VBG	Voice=Act	0	root	_	_
 17	un	uno	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	passo	passo	NOUN	NN	Gender=Masc|Number=Sing	16	obj	_	_
@@ -3289,10 +3289,10 @@
 22	più	più	ADV	RBS	_	23	advmod	_	_
 23	grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	24	amod	_	_
 24	consolazione	consolazione	NOUN	NN	Gender=Fem|Number=Sing	19	ccomp	_	_
-25	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	_
+25	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	_
 26	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	24	cop	_	_
 27	per	per	ADP	IN	_	28	case	_	_
-28	lei	lei	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	26	obl	_	_
+28	lei	lei	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obl	_	_
 29	vedere	vedere	VERB	VB	Voice=Act	24	csubj	_	_
 30	i	il	DET	DT	Gender=Masc|Number=Plur	32	det	_	_
 31	propri	proprio	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	32	det:poss	_	_
@@ -3390,8 +3390,8 @@
 26	,	,	PUNCT	,	_	31	punct	_	_
 27	dopo	dopo	ADV	RB	_	31	mark	_	_
 28	che	che	ADP	IN	_	27	fixed	_	_
-29	erano	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	31	aux:pass	_	_
-30	state	essere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	31	aux:pass	_	_
+29	erano	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	31	aux:pass	_	_
+30	state	essere	AUX	VBN	Gender=Fem|Number=Plur|Tense=Past	31	aux:pass	_	_
 31	sollevate	sollevare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	16	advcl	_	_
 32	"	"	PUNCT	``	_	33	punct	_	SpaceAfter=No
 33	domande	domanda	NOUN	NN	Gender=Fem|Number=Plur	31	nsubj:pass	_	_
@@ -3432,8 +3432,8 @@
 16	che	che	PRON	WP	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 17	si	si	PRON	SE	Number=Sing|Person=3	18	expl	_	_
 18	suppone	supporre	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	_
-19	siano	essere	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Pass	21	aux:pass	_	_
-20	stati	essere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	21	aux:pass	_	_
+19	siano	essere	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Pass	21	aux:pass	_	_
+20	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	21	aux:pass	_	_
 21	pubblicati	pubblicare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	18	csubj:pass	_	_
 22	da	da	ADP	IN	_	23	case	_	_
 23	agenti	agente	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	_
@@ -3578,7 +3578,7 @@
 11	performance	performance	NOUN	NN	Gender=Fem|Number=Plur	9	obl	_	_
 12	e	e	CCONJ	CC	_	13	cc	_	_
 13	bonus	bonus	NOUN	NN	Gender=Masc|Number=Plur	11	conj	_	_
-14	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	_
+14	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	_
 15	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	18	cop	_	_
 16	di	di	ADP	IN	_	18	case	_	_
 17	1,5	1,5	NUM	CD	_	18	nummod	_	_
@@ -3978,7 +3978,7 @@
 30	in	in	ADP	IN	_	31	case	_	_
 31	Colorado	Colorado	PROPN	NNP	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	31	punct	_	_
-33	dove	dove	PRON	WP	_	40	advmod	_	_
+33	dove	dove	ADV	RB	_	40	advmod	_	_
 34	la	il	DET	DT	Gender=Fem|Number=Sing	35	det	_	_
 35	vendita	vendita	NOUN	NN	Gender=Fem|Number=Sing	40	nsubj	_	_
 36-37	della	_	_	_	_	_	_	_	_
@@ -4008,7 +4008,7 @@
 13	origini	origine	NOUN	NN	Gender=Fem|Number=Plur	17	obl	_	_
 14	la	il	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
 15	cannabis	cannabis	NOUN	NN	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
-16	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
+16	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
 17	considerata	considerare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	9	ccomp	_	_
 18	un	uno	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
 19	rimedio	rimedio	NOUN	NN	Gender=Masc|Number=Sing	17	xcomp	_	_
@@ -4384,8 +4384,8 @@
 6	di	di	ADP	IN	_	8	case	_	_
 7	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	party	party	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	_
-9	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux	_	_
-10	state	essere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	11	aux:pass	_	_
+9	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux	_	_
+10	state	essere	AUX	VBN	Gender=Fem|Number=Plur|Tense=Past	11	aux:pass	_	_
 11	pubblicate	pubblicare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	18	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	i	il	DET	DT	Gender=Masc|Number=Plur	14	det	_	_
@@ -4458,7 +4458,7 @@
 # text_en = This would not only apply to entertainment content, but equally to education, to scientific research and, perhaps most importantly, to political discourse.
 1	Ciò	ciò	DET	DT	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 2	non	non	ADV	RB	Polarity=Neg	4	advmod	_	_
-3	verrebbe	venire	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
+3	verrebbe	venire	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
 4	applicato	applicare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 5	solo	solo	ADV	RB	_	7	advmod	_	_
 6	a	a	ADP	IN	_	7	case	_	_
@@ -4520,7 +4520,7 @@
 7	all'	a	ADP	INDT	Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No
 8	equatore	equatore	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	_
 9	e	e	CCONJ	CC	_	12	cc	_	_
-10	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
+10	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
 11	poi	poi	ADV	RB	_	12	advmod	_	_
 12	attratti	attrarre	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	3	conj	_	_
 13-14	dalla	_	_	_	_	_	_	_	_
@@ -4766,7 +4766,7 @@
 33	impatto	impatto	NOUN	NN	Gender=Masc|Number=Sing	30	nmod	_	_
 34	e	e	CCONJ	CC	_	35	cc	_	_
 35	durata	durata	NOUN	NN	Gender=Fem|Number=Sing	33	conj	_	SpaceAfter=No
-36	.	.	X	NFP	_	3	punct	_	SpaceAfter=No
+36	.	.	PUNCT	NFP	_	3	punct	_	SpaceAfter=No
 37	"	"	PUNCT	''	_	3	punct	_	_
 
 # sent_id = n01059054
@@ -4774,7 +4774,7 @@
 # text_en = There are more differences between Sulla and Trump, Rome and the U.S., than there are similarities, but that doesn’t discredit the resemblances.
 1	Ci	ci	PRON	EX	_	2	expl	_	_
 2	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
-3	più	più	DET	DT	Gender=Fem|Number=Plur	4	cc	_	_
+3	più	più	ADV	RB	_	4	advmod	_	_
 4	differenze	differenza	NOUN	NN	Gender=Fem|Number=Plur	2	nsubj	_	_
 5	che	che	CCONJ	CC	_	6	cc	_	_
 6	somiglianze	somiglianza	NOUN	NN	Gender=Fem|Number=Plur	4	conj	_	_
@@ -5327,7 +5327,7 @@
 # text_en = Also being exhibited for the first time are British Ministry of Defence maps which imagine cold war battles and which were used in military college exams.
 1	Inoltre	inoltre	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
+3	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	aux:pass	_	_
 4	esposte	esporre	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 5	per	per	ADP	IN	_	8	case	_	_
 6	la	il	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
@@ -5356,7 +5356,7 @@
 26	,	,	PUNCT	,	_	20	punct	_	_
 27	e	e	CCONJ	CC	_	30	cc	_	_
 28	che	che	PRON	WP	Gender=Fem|Number=Plur	30	nsubj:pass	_	_
-29	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	30	aux:pass	_	_
+29	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	30	aux:pass	_	_
 30	utilizzate	utilizzare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	20	conj	_	_
 31	durante	durante	ADP	IN	_	33	case	_	_
 32	alcuni	alcuno	DET	DT	Gender=Masc|Number=Plur	33	det	_	_
@@ -5384,7 +5384,7 @@
 10	North	North	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	_
 11	Kesteven	Kesteven	PROPN	NNP	Gender=Fem|Number=Sing	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	21	punct	_	_
-13	dove	dove	PRON	WP	_	21	advmod	_	_
+13	dove	dove	ADV	RB	_	21	advmod	_	_
 14	il	il	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 15	62	62	NUM	CD	_	16	nummod	_	SpaceAfter=No
 16	%	%	SYM	SYM	_	21	nsubj	_	_
@@ -5579,7 +5579,7 @@
 # sent_id = n01070020
 # text = Furono uccise molte persone.
 # text_en = People got killed there.
-1	Furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
+1	Furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
 2	uccise	uccidere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 3	molte	molto	DET	DT	Gender=Fem|Number=Plur	4	det	_	_
 4	persone	persona	NOUN	NN	Gender=Fem|Number=Plur	2	nsubj:pass	_	SpaceAfter=No
@@ -5599,7 +5599,7 @@
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	a	a	ADP	IN	_	10	case	_	_
 10	sud	sud	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
-11	-	-	PUNCT	-	_	10	flat	_	SpaceAfter=No
+11	-	-	PUNCT	-	_	10	punct	_	SpaceAfter=No
 12	est	est	NOUN	NN	Gender=Masc|Number=Sing	10	flat	_	_
 13	di	di	ADP	IN	_	14	case	_	_
 14	Delhi	Delhi	PROPN	NNP	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -5983,7 +5983,7 @@
 # text = Poi vengono postate le cosiddette storie vere, in una serie di foto significative e frasi che scorrono al di sotto di esse.
 # text_en = Then there are the so-called true stories that get posted in a series of meaningful pictures with text running underneath.
 1	Poi	poi	ADV	RB	_	3	advmod	_	_
-2	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
+2	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
 3	postate	postare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 4	le	il	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 5	cosiddette	cosiddetto	ADJ	JJ	Gender=Fem|Number=Plur	6	amod	_	_
@@ -6001,10 +6001,10 @@
 17	che	che	PRON	WP	Gender=Fem|Number=Plur	18	nsubj	_	_
 18	scorrono	scorrere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	_
 19-20	al	_	_	_	_	_	_	_	_
-19	a	a	ADP	IN	_	21	case	_	_
-20	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	di	di	ADP	IN	_	18	obl	_	_
-22	sotto	sotto	ADV	RB	_	21	fixed	_	_
+19	a	a	ADP	IN	_	22	case	_	_
+20	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	di	di	ADP	IN	_	22	case	_	_
+22	sotto	sotto	ADV	RB	_	18	obl	_	_
 23	di	di	ADP	IN	_	24	case	_	_
 24	esse	esse	PRON	PRP	Case=Acc|Gender=Fem|Number=Plur|Person=3	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
@@ -6025,7 +6025,7 @@
 9	d'	di	ADP	IN	_	10	case	_	SpaceAfter=No
 10	oggi	oggi	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	debba	dovere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	_
-12	essere	essere	VERB	VB	Voice=Pass	13	aux:pass	_	_
+12	essere	essere	AUX	VB	Voice=Pass	13	aux:pass	_	_
 13	separata	separare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	2	ccomp	_	_
 14-15	dal	_	_	_	_	_	_	_	_
 14	da	da	ADP	IN	_	16	case	_	_
@@ -6240,13 +6240,13 @@
 6	di	di	ADP	IN	_	7	case	_	_
 7	persone	persona	NOUN	NN	Gender=Fem|Number=Plur	5	obl	_	_
 8	si	si	PRON	SE	Number=Sing|Person=3	10	expl	_	_
-9	sta	sta	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	_
+9	sta	stare	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	_
 10	affidando	affidare	VERB	VBG	Voice=Act	0	root	_	_
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	IN	_	13	case	_	_
 12	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	credito	credito	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
-14	…	…	X	NFP	_	10	punct	_	OrigForm=...
+14	…	…	PUNCT	NFP	_	10	punct	_	OrigForm=...
 15	ma	ma	CCONJ	CC	_	31	cc	_	_
 16	mentre	mentre	SCONJ	IN	_	21	mark	_	_
 17	questo	questo	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
@@ -6660,7 +6660,7 @@
 14	a	a	ADP	IN	_	15	case	_	_
 15	Glasgow	Glasgow	PROPN	NNP	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	_	_
-17	dove	dove	PRON	WP	_	19	advmod	_	_
+17	dove	dove	ADV	RB	_	19	advmod	_	_
 18	aveva	avere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	aux	_	_
 19	studiato	studiare	VERB	VBN	Tense=Past	15	acl:relcl	_	_
 20	design	design	NOUN	NN	Gender=Masc|Number=Sing	19	obj	_	_
@@ -6769,7 +6769,7 @@
 4	appare	apparire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 5	brevemente	brevemente	ADV	RB	_	4	advmod	_	_
 6	ed	e	CCONJ	CC	_	8	cc	_	_
-7	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
+7	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
 8	filmata	filmare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	conj	_	_
 9	mentre	mentre	SCONJ	IN	_	10	mark	_	_
 10	indossa	indossare	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	_
@@ -6876,7 +6876,7 @@
 16	scagionerebbe	scagionare	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	_
 17	ancora	ancora	ADV	RB	_	19	advmod	_	_
 18	una	uno	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
-19	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	16	advmod	_	_
+19	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
 20	la	il	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	lobby	lobby	NOUN	NN	Gender=Fem|Number=Sing	16	obj	_	_
 22-23	dei	_	_	_	_	_	_	_	_
@@ -6908,7 +6908,7 @@
 16	affermato	affermare	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
 17	:	:	PUNCT	:	_	16	punct	_	_
 18	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
-19	Sarei	Sarei	AUX	VBC	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|Voice=Act	20	cop	_	_
+19	Sarei	essere	AUX	VBC	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|Voice=Act	20	cop	_	_
 20	sorpreso	sorprendere	ADJ	JJ	Gender=Masc|Number=Sing	16	parataxis	_	_
 21	se	se	ADP	IN	_	28	mark	_	_
 22	un	uno	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
@@ -7036,9 +7036,9 @@
 26	si	si	PRON	SE	Number=Plur|Person=3	25	expl	_	_
 27	pubblicamente	pubblico	ADV	RB	_	25	advmod	_	_
 28	l'	il	DET	DT	Gender=Masc|Number=Sing	29	det	_	SpaceAfter=No
-29	un	uno	NOUN	NN	Gender=Masc|Number=Sing	25	advmod	_	_
+29	un	uno	NOUN	NN	Gender=Masc|Number=Sing|PronType=Ind	25	nsubj	_	_
 30	l'	il	DET	DT	Gender=Masc|Number=Sing	31	det	_	SpaceAfter=No
-31	altro	altro	NOUN	NN	Gender=Masc|Number=Sing	29	advmod	_	_
+31	altro	altro	NOUN	NN	Gender=Masc|Number=Sing|PronType=Ind	29	obj	_	_
 32-33	sui	_	_	_	_	_	_	_	_
 32	su	su	ADP	IN	_	35	case	_	_
 33	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
@@ -7126,12 +7126,12 @@
 # text = Ma sono state introdotte provvisoriamente anche consistenti riduzioni di merluzzo, sogliola, platessa, rombo giallo e merluzzo giallo nel Mar Celtico e d'Irlanda.
 # text_en = But big reductions have also been pencilled in for cod, sole, plaice, megrim and pollack in the Celtic and Irish Seas.
 1	Ma	ma	CCONJ	CC	_	4	cc	_	_
-2	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	aux	_	_
-3	state	essere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	4	aux:pass	_	_
+2	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	aux	_	_
+3	state	essere	AUX	VBN	Gender=Fem|Number=Plur|Tense=Past	4	aux:pass	_	_
 4	introdotte	introdurre	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 5	provvisoriamente	provvisorio	ADV	RB	_	4	advmod	_	_
 6	anche	anche	ADV	RB	_	8	advmod	_	_
-7	consistenti	consistente	ADJ	JJ	Gender=Fem|Number=Plur	8	det	_	_
+7	consistenti	consistente	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
 8	riduzioni	riduzione	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 9	di	di	ADP	IN	_	10	case	_	_
 10	merluzzo	merluzzo	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -7522,7 +7522,7 @@
 25	(	(	PUNCT	(	_	29	punct	_	SpaceAfter=No
 26	le	il	DET	DT	Gender=Fem|Number=Plur	27	det	_	_
 27	pupe	pupa|pupo	NOUN	NN	Gender=Fem|Number=Plur	29	nsubj:pass	_	_
-28	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	29	aux:pass	_	_
+28	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	29	aux:pass	_	_
 29	considerate	considerare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	22	parataxis	_	_
 30	una	uno	DET	DT	Gender=Fem|Number=Sing	31	det	_	_
 31	prelibatezza	prelibatezza	NOUN	NN	Gender=Fem|Number=Sing	29	xcomp	_	SpaceAfter=No
@@ -7748,7 +7748,7 @@
 8	partita	partita	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 9	in	in	ADP	IN	_	10	case	_	_
 10	cui	cui	PRON	WP	Gender=Fem|Number=Sing	12	obl	_	_
-11	hai	avere	VERB	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	12	aux:pass	_	_
+11	hai	avere	AUX	VBC	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	12	aux:pass	_	_
 12	dominato	dominare	VERB	VBN	Tense=Past	8	acl:relcl	_	_
 13	finita	finire	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|Voice=Act	8	acl	_	_
 14	in	in	ADP	IN	_	15	case	_	_
@@ -8033,8 +8033,8 @@
 # sent_id = n01107010
 # text = È stato promosso alla carica di presidente nell'ottobre 2015, un mese dopo la rivelazione dello scandalo.
 # text_en = He was promoted to chairman in October 2015, the month after the scandal was unearthed.
-1	È	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
-2	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
+1	È	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
+2	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
 3	promosso	promuovere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4-5	alla	_	_	_	_	_	_	_	_
 4	a	a	ADP	IN	_	6	case	_	_
@@ -8048,7 +8048,7 @@
 11	ottobre	ottobre	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 12	2015	2015	NUM	CD	_	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	3	punct	_	_
-14	un	uno	NUM	CD	Gender=Masc	15	det	_	_
+14	un	uno	NUM	CD	Gender=Masc	15	nummod	_	_
 15	mese	mese	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	_
 16	dopo	dopo	ADP	IN	_	18	case	_	_
 17	la	il	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
@@ -8135,7 +8135,7 @@
 # text_en = There will be limits to his ability to spend, however, as the Government is still running a substantial budget deficit.
 1	Tuttavia	tuttavia	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	saranno	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|Voice=Pass	4	aux:pass	_	_
+3	saranno	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|Voice=Pass	4	aux:pass	_	_
 4	imposti	imporre	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 5	dei	di	DET	DT	Gender=Masc|Number=Plur	6	det	_	_
 6	limiti	limite	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj:pass	_	_
@@ -8313,7 +8313,7 @@
 16	&	&	SYM	SYM	_	17	cc	_	Proper=True
 17	Risparmio	Risparmio	PROPN	NN	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	6	punct	_	_
-19	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	20	aux:pass	_	_
+19	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	20	aux:pass	_	_
 20	utilizzati	utilizzare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 21	per	per	ADP	IN	_	22	mark	_	_
 22	finanziare	finanziare	VERB	VB	Voice=Act	20	advcl	_	_
@@ -8352,8 +8352,8 @@
 # sent_id = n01111021
 # text = È stato seguito dai fondi Multi-Strategy Target Return e Target Income di Aviva Investors, in cui gli investitori hanno messo rispettivamente 2 e 1,4 miliardi di sterline.
 # text_en = It was followed by the Aviva Investors Multi Strategy Target Return and Income funds, into which investors put £2bn and £1.4bn respectively.
-1	È	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
-2	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
+1	È	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
+2	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
 3	seguito	seguire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4-5	dai	_	_	_	_	_	_	_	_
 4	da	da	ADP	IN	_	6	case	_	_
@@ -8572,8 +8572,8 @@
 2	adulti	adulto	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3	su	su	ADP	IN	_	4	case	_	_
 4	10	10	NUM	CD	_	2	nmod	_	_
-5	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	aux	_	_
-6	stati	essere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	7	aux:pass	_	_
+5	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	aux	_	_
+6	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	7	aux:pass	_	_
 7	feriti	feriti	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 8	a	a	ADP	IN	_	9	case	_	_
 9	causa	causa	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -8622,7 +8622,7 @@
 5	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	6	cop	_	_
 6	incredibile	incredibile	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 7	e	e	CCONJ	CC	_	9	cc	_	_
-8	sono	essere|sonare	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	9	aux	_	_
+8	sono	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	9	aux	_	_
 9	pronto	pronto	ADJ	JJ	Gender=Masc|Number=Sing	6	conj	_	_
 10	per	per	ADP	IN	_	13	case	_	_
 11	un	uno	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
@@ -8895,7 +8895,7 @@
 20	su	su	ADP	IN	_	21	case	_	_
 21	misura	misura	NOUN	NN	Gender=Fem|Number=Sing	19	obl	_	_
 22	per	per	ADP	IN	_	24	mark	_	_
-23	essere	essere	VERB	VB	Voice=Pass	24	aux:pass	_	_
+23	essere	essere	AUX	VB	Voice=Pass	24	aux:pass	_	_
 24	guardato	guardare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	19	advcl	_	_
 25	la	il	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 26	domenica	domenica	NOUN	NN	Gender=Fem|Number=Sing	24	obl	_	_
@@ -9307,7 +9307,7 @@
 6	performance	performance	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 7	organizzativa	organizzativo	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	_
 8	raramente	raro	ADV	RB	_	10	advmod	_	_
-9	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
+9	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
 10	misurata	misurare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 11	in	in	ADP	IN	_	12	case	_	_
 12	termini	termine	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	_
@@ -9579,8 +9579,8 @@
 4	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Partito	Partito	PROPN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 6	Repubblicano	Repubblicano	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	Proper=True
-7	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	aux:pass	_	_
-8	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	9	aux:pass	_	_
+7	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	aux:pass	_	_
+8	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	9	aux:pass	_	_
 9	sostenuto	sostenere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 10	da	da	ADP	IN	_	12	case	_	_
 11	un	uno	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
@@ -9728,7 +9728,7 @@
 2	contratti	contratto	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	future	futuro	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	americani	americano	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	Proper=True
-5	stanno	stanno	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	_
+5	stanno	stare	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	_
 6	salendo	salire	VERB	VBG	Voice=Act	0	root	_	_
 7	di	di	ADP	IN	_	11	case	_	_
 8	oltre	oltre	ADV	RB	_	11	advmod	_	_
@@ -9750,7 +9750,7 @@
 # text_en = Investors are selling out of government bonds, with U.S. and Australian bonds feeling the biggest impact.
 1	Gli	il	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
 2	investitori	investitore	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	stanno	stanno	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	_
+3	stanno	stare	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	_
 4	vendendo	vendere	VERB	VBG	Voice=Act	0	root	_	_
 5	tutti	tutto	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	_
 6	i	il	DET	DT	Gender=Masc|Number=Plur	7	det	_	_
@@ -9774,7 +9774,7 @@
 # text = Gli viene riconosciuto il merito di aver affrontato la montagna di debiti accumulati dalle amministrazioni locali in Cina.
 # text_en = He is credited with helping efforts to tackle the mountain of debt accumulated by local governments in China.
 1	Gli	gli	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	iobj	_	_
-2	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
+2	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux:pass	_	_
 3	riconosciuto	riconoscere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	il	il	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
 5	merito	merito	NOUN	NN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
@@ -9922,8 +9922,8 @@
 15	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	_
 16	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	21	cop	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	_	_
-18	loro	loro	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	19	det:poss	_	_
-19	malgrado	malgrado	NOUN	NN	Gender=Masc|Number=Sing	21	advmod	_	SpaceAfter=No
+18	loro	loro	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	21	nmod	_	_
+19	malgrado	malgrado	ADP	E	_	18	case	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	19	punct	_	_
 21	protagonisti	protagonisti	NOUN	NN	Gender=Masc|Number=Plur	0	root	_	_
 22-23	della	_	_	_	_	_	_	_	_
@@ -9982,7 +9982,7 @@
 11	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	CNN	CNN	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
 13	si	si	PRON	SE	Number=Plur|Person=3	15	expl	_	_
-14	stanno	stanno	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	_
+14	stanno	stare	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	_
 15	travestendo	travestire	VERB	VBG	Voice=Act	0	root	_	_
 16	come	come	ADP	IN	_	18	case	_	_
 17	i	il	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
@@ -10052,11 +10052,11 @@
 2	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	_
 3	uno	uno	NUM	CD	Gender=Masc	0	root	_	_
 4-5	dei	_	_	_	_	_	_	_	_
-4	di	di	ADP	IN	_	3	case	_	_
-5	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	di	di	ADP	IN	_	8	case	_	_
+5	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 6	miei	mio	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|PronType=Prs	8	det:poss	_	_
 7	cari	caro	ADJ	JJ	Gender=Masc|Number=Plur	8	amod	_	_
-8	amici	amico	NOUN	NN	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	amici	amico	NOUN	NN	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
 10	quindi	quindi	ADV	RB	_	13	advmod	_	_
 11	mi	mi	PRON	PRP	Case=Acc|Number=Sing|Person=1	13	obj	_	_
@@ -10078,7 +10078,7 @@
 1	I	il	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
 2	nuovi	nuovo	ADJ	JJ	Gender=Masc|Number=Plur	3	amod	_	_
 3	episodi	episodio	NOUN	NN	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-4	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
+4	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
 5	seguiti	seguire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 6-7	dal	_	_	_	_	_	_	_	_
 6	da	da	ADP	IN	_	8	case	_	_
@@ -10396,7 +10396,7 @@
 # text_en = "Pair prank their way into North Korean golf tournament," read Brisbane's Nine News.
 1	La	il	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	coppia	coppia	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux:pass	_	_
+3	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux:pass	_	_
 4	entrata	entrare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 5	per	per	ADP	IN	_	6	case	_	_
 6	scherzo	scherzo	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
@@ -10509,7 +10509,7 @@
 16	chiaramente	chiaro	ADV	RB	_	20	advmod	_	_
 17	non	non	ADV	RB	Polarity=Neg	20	advmod	_	_
 18	voleva	volere	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	_
-19	essere	essere	VERB	VB	Voice=Pass	20	aux:pass	_	_
+19	essere	essere	AUX	VB	Voice=Pass	20	aux:pass	_	_
 20	venduto	vendere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	11	ccomp	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -10780,7 +10780,7 @@
 18	in	in	ADP	IN	_	19	case	_	_
 19	cui	cui	PRON	WP	Gender=Masc|Number=Sing	20	obl	_	_
 20	andar	andare	VERB	VB	Voice=Act	16	acl:relcl	_	SpaceAfter=No
-21	ci	ci	ADV	RB	_	20	expl	_	SpaceAfter=No
+21	ci	ci	PRON	EX	_	20	expl	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	16	punct	_	_
 
 # newdoc id = n01148
@@ -11238,7 +11238,7 @@
 6	altamente	alto	ADV	RB	_	7	advmod	_	_
 7	stimato	stimare	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
-9	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+9	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 10	incaricato	incaricare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 11-12	del	_	_	_	_	_	_	_	_
 11	di	di	ADP	IN	_	13	case	_	_
@@ -11368,7 +11368,7 @@
 1	In	in	ADP	IN	_	3	case	_	_
 2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1912	1912	NUM	CD	_	5	obl	_	_
-4	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	fondata	fondare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 6	la	il	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 7	prima	primo	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	_
@@ -11423,7 +11423,7 @@
 4	di	di	ADP	IN	_	6	case	_	_
 5	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	1918	1918	NUM	CD	_	3	nmod	_	_
-7	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
+7	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
 8	firmato	firmare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 9	il	il	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	trattato	trattato	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
@@ -11582,7 +11582,7 @@
 5	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	massa	massa	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 7	aerea	aereo	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	_
-8	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	usata	usare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	22	advcl	_	_
 10	inizialmente	inizialmente	ADV	RB	_	9	advmod	_	_
 11-12	nelle	_	_	_	_	_	_	_	_
@@ -11833,7 +11833,7 @@
 1	Sebbene	sebbene	SCONJ	IN	_	5	mark	_	_
 2	l'	il	DET	DT	Gender=Fem|Number=Sing	3	det	_	SpaceAfter=No
 3	Islanda	Islanda	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
-4	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	sottomessa	sottomettere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	36	advcl	_	_
 6-7	al	_	_	_	_	_	_	_	_
 6	a	a	ADP	IN	_	8	case	_	_
@@ -11922,7 +11922,7 @@
 9	in	in	ADP	IN	_	11	case	_	_
 10	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	finlandese	finlandese	PROPN	NN	Gender=Masc|Number=Sing	7	obl	_	_
-12	che	che	PRON	WP	Gender=Masc|Number=Sing	15	cc	_	_
+12	che	che	CCONJ	CC	Gender=Masc|Number=Sing	15	cc	_	_
 13-14	nei	_	_	_	_	_	_	_	_
 13	in	in	ADP	IN	_	15	case	_	_
 14	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -11962,7 +11962,7 @@
 4	di	di	ADP	IN	_	6	case	_	_
 5	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Caucaso	Caucaso	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
-7	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
+7	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
 8	conosciuta	conoscere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 9-10	col	_	_	_	_	_	_	_	_
 9	con	con	ADP	IN	_	11	case	_	_
@@ -11974,7 +11974,7 @@
 15	mentre	mentre	ADP	IN	_	19	cc	_	_
 16	quella	quello	PRON	PRP	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 17	meridionale	meridionale	ADJ	JJ	Gender=Fem|Number=Sing	16	amod	_	_
-18	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	19	aux:pass	_	_
+18	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	19	aux:pass	_	_
 19	chiamata	chiamare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	8	conj	_	_
 20	Transcaucasia	Transcaucasia	PROPN	NNP	Gender=Fem|Number=Sing	19	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
@@ -12318,7 +12318,7 @@
 # sent_id = w01019014
 # text = Anche se meno estremo, il clima del Sahel è simile al clima del deserto del Sahara, che si trova poco più a nord.
 # text_en = The Sahel's climate is similar to, but less extreme than, the climate of the Sahara desert located just to the north.
-1	Anche	anche	VERB	RB	_	4	advmod	_	_
+1	Anche	anche	ADV	RB	_	4	advmod	_	_
 2	se	se	ADP	IN	_	4	mark	_	_
 3	meno	meno	ADV	RB	_	4	advmod	_	_
 4	estremo	estremo	ADJ	JJ	Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
@@ -12371,7 +12371,7 @@
 10	,	,	PUNCT	,	_	3	punct	_	_
 11	il	il	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	Sahel	Sahel	PROPN	NNP	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
-13	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	14	aux:pass	_	_
+13	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	14	aux:pass	_	_
 14	colpito	colpire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 15	da	da	ADP	IN	_	17	case	_	_
 16	una	uno	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
@@ -12493,7 +12493,7 @@
 26	Mediterraneo	Mediterraneo	PROPN	NNP	Gender=Masc|Number=Sing	22	obl	_	_
 27	tendevano	tendere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 28	ad	ad	ADP	IN	_	30	mark	_	_
-29	essere	essere	VERB	VB	Voice=Pass	30	aux:pass	_	_
+29	essere	essere	AUX	VB	Voice=Pass	30	aux:pass	_	_
 30	caratterizzate	caratterizzare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	27	xcomp	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	36	punct	_	_
 32	fino	fino	ADP	IN	_	36	case	_	_
@@ -12629,7 +12629,7 @@
 4	la	il	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	parola	parola	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 6	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	_
-7	essere	essere	VERB	VB	Voice=Pass	8	aux:pass	_	_
+7	essere	essere	AUX	VB	Voice=Pass	8	aux:pass	_	_
 8	utilizzata	utilizzare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 9	anche	anche	ADV	RB	_	11	advmod	_	_
 10	per	per	ADP	IN	_	11	mark	_	_
@@ -12664,7 +12664,7 @@
 # sent_id = w01023074
 # text = Furono servite bevande alcoliche come birra, idromele, bjórr (un forte vino fruttato) e, per i più abbienti, vino importato.
 # text_en = Alcoholic drinks like beer, mead, bjórr (a strong fruit wine) and, for the rich, imported wine, were served.
-1	Furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
+1	Furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
 2	servite	servire	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 3	bevande	bevanda	NOUN	NN	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
 4	alcoliche	alcolico	ADJ	JJ	Gender=Fem|Number=Plur	3	amod	_	_
@@ -12747,7 +12747,7 @@
 26	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Danevirke	Danevirke	PROPN	NNP	Gender=Masc|Number=Sing	24	nmod	_	_
 28	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	30	aux	_	_
-29	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	30	aux:pass	_	_
+29	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	30	aux:pass	_	_
 30	conquistato	conquistare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	13	conj	_	_
 31-32	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 31	da	da	ADP	IN	_	33	case	_	_
@@ -12818,7 +12818,7 @@
 22	a	a	ADP	IN	_	23	case	_	_
 23	Flensburg	Flensburg	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	_
 24	non	non	ADV	RB	Polarity=Neg	27	advmod	_	_
-25	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	27	aux:pass	_	_
+25	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	27	aux:pass	_	_
 26	mai	mai	ADV	RB	_	27	advmod	_	_
 27	utilizzata	utilizzare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	16	acl	_	_
 28	correttamente	corretto	ADV	RB	_	27	advmod	_	_
@@ -12868,7 +12868,7 @@
 27	Generale	Generale	NOUN	NN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
 28	de	de	ADP	IN	_	27	flat	_	Proper=True
 29	Maza	Maza	PROPN	NNP	Gender=Masc|Number=Sing	27	flat	_	_
-30	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	31	aux:pass	_	_
+30	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	31	aux:pass	_	_
 31	esonerato	esonerare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	9	conj	_	_
 32-33	dal	_	_	_	_	_	_	_	_
 32	da	da	ADP	IN	_	34	case	_	_
@@ -12985,7 +12985,7 @@
 7	talvolta	talvolta	ADV	RB	_	11	advmod	_	_
 8	queste	questo	DET	DT	Gender=Fem|Number=Plur	9	det	_	_
 9	pianure	pianura	NOUN	NN	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
-10	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
+10	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
 11	considerate	considerare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	5	advcl	_	_
 12	una	uno	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
 13	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	11	xcomp	_	_
@@ -13123,7 +13123,7 @@
 10	come	come	ADP	IN	_	14	mark	_	_
 11	la	il	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	nazione	nazione	NOUN	NN	Gender=Fem|Number=Sing	14	nsubj	_	_
-13	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux:pass	_	_
+13	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux:pass	_	_
 14	diventata	diventare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	9	ccomp	_	_
 15	profondamente	profondo	ADV	RB	_	16	advmod	_	_
 16	divisa	dividere	ADJ	JJ	Gender=Fem|Number=Sing	14	xcomp	_	SpaceAfter=No
@@ -13321,7 +13321,7 @@
 4	da	da	ADP	IN	_	6	case	_	_
 5	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	fiumi	fiume	NOUN	NN	Gender=Masc|Number=Plur	3	obl	_	_
-7	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
+7	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux:pass	_	_
 8	utilizzata	utilizzare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 9	in	in	ADP	IN	_	12	case	_	_
 10	oltre	oltre	ADV	RB	_	11	advmod	_	_
@@ -13529,7 +13529,7 @@
 1	In	in	ADP	IN	_	3	case	_	_
 2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1975	1975	NUM	CD	_	5	obl	_	_
-4	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	dichiarata	dichiarare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 6	riserva	riserva	NOUN	NN	Gender=Fem|Number=Sing	5	xcomp	_	_
 7	naturale	naturale	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
@@ -13694,7 +13694,7 @@
 8	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	agricoltura	agricoltura	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 10	possono	potere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	_
-11	essere	essere	VERB	VB	Voice=Pass	12	aux:pass	_	_
+11	essere	essere	AUX	VB	Voice=Pass	12	aux:pass	_	_
 12	influenzati	influenzare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 13-14	dalla	_	_	_	_	_	_	_	_
 13	da	da	ADP	IN	_	15	case	_	_
@@ -13772,7 +13772,7 @@
 1	Quando	quando	SCONJ	IN	_	5	mark	_	_
 2	l'	il	DET	DT	Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No
 3	habitat	habitat	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-4	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
+4	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
 5	distrutto	distruggere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	anche	anche	ADV	RB	_	9	advmod	_	_
@@ -13797,7 +13797,7 @@
 2	Papua	Papua	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	Nuova	Nuova	PROPN	NNP	Gender=Fem|Number=Sing	2	flat	_	_
 4	Guinea	Guinea	PROPN	NNP	Gender=Fem|Number=Sing	2	flat	_	_
-5	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	aux:pass	_	_
+5	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	aux:pass	_	_
 6	spesso	spesso	ADV	RB	_	7	advmod	_	_
 7	etichettata	etichettare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 8	come	come	ADP	IN	_	11	case	_	_
@@ -13850,7 +13850,7 @@
 9	di	di	ADP	IN	_	11	case	_	_
 10	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Sud	Sud	PROPN	NNP	Gender=Masc|Number=Sing	8	nmod	_	_
-12	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	13	aux:pass	_	_
+12	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	13	aux:pass	_	_
 13	considerate	considerare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 14	due	due	NUM	CD	_	15	nummod	_	_
 15	continenti	continente	NOUN	NN	Gender=Masc|Number=Plur	13	xcomp	_	_
@@ -14086,7 +14086,7 @@
 # text_en = 1987 was proclaimed the "Year of the River" by the Lord Mayor of Brisbane at the time, Sallyanne Atkinson.
 1	Il	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	1987	1987	NUM	CD	_	4	nsubj:pass	_	_
-3	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	proclamato	proclamare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 5	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 6	Anno	Anno	PROPN	NN	Gender=Masc|Number=Sing	4	xcomp	_	_
@@ -14135,7 +14135,7 @@
 18	la	il	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
 19	terra	terra	NOUN	NN	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
 20	non	non	ADV	RB	Polarity=Neg	22	advmod	_	_
-21	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	aux:pass	_	_
+21	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	aux:pass	_	_
 22	protetta	proteggere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	14	acl:relcl	_	_
 23	da	da	ADP	IN	_	25	case	_	_
 24	nessuna	nessuno	DET	DT	Gender=Fem|Number=Sing	25	det	_	_
@@ -14174,14 +14174,14 @@
 21	deserti	deserto	NOUN	NN	Gender=Masc|Number=Plur	18	nmod	_	_
 22	stessi	stesso	ADJ	JJ	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	21	punct	_	_
-24	dove	dove	PRON	WP	_	32	advmod	_	_
+24	dove	dove	ADV	RB	_	32	advmod	_	_
 25	i	il	DET	DT	Gender=Masc|Number=Plur	26	det	_	_
 26	materiali	materiale	NOUN	NN	Gender=Masc|Number=Plur	32	nsubj:pass	_	_
 27	più	più	ADV	RBS	_	28	advmod	_	_
 28	fini	fine	ADJ	JJ	Gender=Masc|Number=Plur	26	amod	_	_
-29	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	32	aux:pass	_	_
+29	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	32	aux:pass	_	_
 30	già	già	ADV	RB	_	32	advmod	_	_
-31	stati	essere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	32	aux:pass	_	_
+31	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	32	aux:pass	_	_
 32	spazzati	spazzare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	21	acl:relcl	_	_
 33	via	via	PART	RP	_	32	expl	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	5	punct	_	_
@@ -14224,7 +14224,7 @@
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	alcune	alcuno	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
 8	particelle	particella	NOUN	NN	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
-9	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
+9	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
 10	sollevate	sollevare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 11-12	nel	_	_	_	_	_	_	_	_
 11	in	in	ADP	IN	_	13	case	_	_
@@ -14246,7 +14246,7 @@
 7	particelle	particella	NOUN	NN	Gender=Fem|Number=Plur	5	obj	_	_
 8	che	che	PRON	WP	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 9	possono	potere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	_
-10	essere	essere	VERB	VB	Voice=Pass	11	aux:pass	_	_
+10	essere	essere	AUX	VB	Voice=Pass	11	aux:pass	_	_
 11	spinte	spinto	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	7	acl:relcl	_	_
 12	a	a	ADP	IN	_	14	case	_	_
 13	loro	loro	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	14	det:poss	_	_
@@ -14492,7 +14492,7 @@
 17	termine	termine	NOUN	NN	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 18	spagnolo	spagnolo	ADJ	JJ	Gender=Masc|Number=Sing	17	amod	_	Proper=True
 19	Antille	Antille	PROPN	NNP	Gender=Masc|Number=Sing	17	nmod	_	_
-20	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
+20	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
 21	utilizzato	utilizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 22	per	per	ADP	IN	_	24	case	_	_
 23	le	il	DET	DT	Gender=Fem|Number=Plur	24	det	_	_
@@ -15085,7 +15085,7 @@
 6	di	di	ADP	IN	_	8	case	_	_
 7	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Repubblica	Repubblica	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	_
-9	di	di	PROPN	NNP	Gender=Fem|Number=Sing	10	case	_	_
+9	di	di	ADP	IN	_	10	case	_	_
 10	Cina	Cina	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	1	punct	_	_
 12	considerava	considerare	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -15286,7 +15286,7 @@
 19	a	a	ADP	IN	_	20	case	_	_
 20	Tunip	Tunip	PROPN	NNP	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	_	_
-22	dove	dove	PRON	WP	_	25	advmod	_	_
+22	dove	dove	ADV	RB	_	25	advmod	_	_
 23	non	non	ADV	RB	Polarity=Neg	25	advmod	_	_
 24	si	si	PRON	SE	Number=Sing|Person=3	25	expl	_	_
 25	vedeva	vedere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	_
@@ -15424,7 +15424,7 @@
 2	seconda	secondo	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	data	data	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	_
-5	essere	essere	VERB	VB	Voice=Pass	6	aux:pass	_	_
+5	essere	essere	AUX	VB	Voice=Pass	6	aux:pass	_	_
 6	caduta	cadere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 7	solo	solo	ADV	RB	_	9	advmod	_	_
 8	di	di	ADP	IN	_	9	case	_	_
@@ -15434,10 +15434,10 @@
 12	quell'	quello	DET	DT	Gender=Masc|Number=Sing	13	det	_	SpaceAfter=No
 13	anno	anno	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	_
 14	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	aux	_	_
-15	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	16	aux:pass	_	_
+15	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	16	aux:pass	_	_
 16	introdotto	introdurre	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	6	advcl	_	_
 17	eccezionalmente	eccezionalmente	ADV	RB	_	16	advmod	_	_
-18	un	uno	NUM	CD	Gender=Masc	19	det	_	_
+18	un	uno	NUM	CD	Gender=Masc	19	nummod	_	_
 19	mese	mese	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 20	intercalare	intercalare	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	6	punct	_	_
@@ -15472,7 +15472,7 @@
 17	non	non	ADV	RB	Polarity=Neg	21	advmod	_	_
 18	se	se	SCONJ	IN	_	21	mark	_	_
 19	questa	questo	PRON	PRP	Gender=Fem|Number=Sing	21	nsubj:pass	_	_
-20	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux:pass	_	_
+20	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux:pass	_	_
 21	oscurata	oscurare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	3	conj	_	_
 22	da	da	ADP	IN	_	23	case	_	_
 23	nuvole	nuvola	NOUN	NN	Gender=Fem|Number=Plur	21	obl	_	_
@@ -15486,7 +15486,7 @@
 # text_en = Forts were also built in the older portions of New France that had not yet been settled.
 1	I	il	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
 2	forti	forte	NOUN	NN	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-3	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+3	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 4	anche	anche	ADV	RB	_	5	advmod	_	_
 5	costruiti	costruire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 6-7	nelle	_	_	_	_	_	_	_	_
@@ -15504,7 +15504,7 @@
 16	non	non	ADV	RB	Polarity=Neg	20	advmod	_	_
 17	erano	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	20	aux	_	_
 18	ancora	ancora	ADV	RB	_	20	advmod	_	_
-19	state	essere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	20	aux:pass	_	_
+19	state	essere	AUX	VBN	Gender=Fem|Number=Plur|Tense=Past	20	aux:pass	_	_
 20	abitate	abitare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	8	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -15519,7 +15519,7 @@
 5	per	per	ADP	IN	_	7	case	_	_
 6	l'	il	DET	DT	Gender=Fem|Number=Sing	7	det	_	SpaceAfter=No
 7	integrazione	integrazione	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	_
-8	dove	dove	PRON	WP	_	19	advmod	_	_
+8	dove	dove	ADV	RB	_	19	advmod	_	_
 9	i	il	DET	DT	Gender=Masc|Number=Plur	10	det	_	_
 10	meccanismi	meccanismo	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj	_	_
 11	economici	economico	ADJ	JJ	Gender=Masc|Number=Plur	10	amod	_	_
@@ -15530,14 +15530,14 @@
 15	lo	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	stato	stato	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
 17	potevano	potere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	19	aux	_	_
-18	essere	essere	VERB	VB	Voice=Pass	19	aux:pass	_	_
+18	essere	essere	AUX	VB	Voice=Pass	19	aux:pass	_	_
 19	applicati	applicare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	7	acl:relcl	_	_
 20	in	in	ADP	IN	_	23	case	_	_
 21	tutto	tutto	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
 22	il	il	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
 23	Mediterraneo	Mediterraneo	PROPN	NNP	Gender=Masc|Number=Sing	19	obl	_	_
 24	come	come	SCONJ	IN	_	26	mark	_	_
-25	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	26	aux:pass	_	_
+25	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	26	aux:pass	_	_
 26	fatto	fare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	19	advcl	_	_
 27	una	uno	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
 28	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	26	obl	_	_
@@ -15602,7 +15602,7 @@
 # text = Era stato predetto che sarebbe morto di vecchiaia dopo una vita povera di avvenimenti oppure da giovane in battaglia conquistando l'immortalità attraverso la poesia.
 # text_en = It was foretold that he would either die of old age after an uneventful life, or die young in a battlefield and gain immortality through poetry.
 1	Era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux	_	_
-2	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
+2	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
 3	predetto	predire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	che	che	SCONJ	IN	_	6	mark	_	_
 5	sarebbe	essere	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	_
@@ -15635,11 +15635,11 @@
 1	Tuttavia	tuttavia	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	questo	questo	PRON	PRP	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-4	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	cancellato	cancellare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	quando	quando	SCONJ	IN	_	9	mark	_	_
 7	Giuliano	Giuliano	PROPN	NNP	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
-8	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	ucciso	uccidere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	advcl	_	_
 10	in	in	ADP	IN	_	11	case	_	_
 11	battaglia	battaglia	NOUN	NN	Gender=Fem|Number=Sing	9	obl	_	_
@@ -15699,7 +15699,7 @@
 3	1072	1072	NUM	CD	_	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	Shen	Shen	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
-6	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
+6	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
 7	inviato	inviare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 8	a	a	ADP	IN	_	9	mark	_	_
 9	supervisionare	supervisionare	VERB	VB	Voice=Act	7	xcomp	_	_
@@ -15766,7 +15766,7 @@
 6	a	a	ADP	IN	_	7	case	_	_
 7	corte	corte	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 8	quando	quando	SCONJ	IN	_	10	mark	_	_
-9	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+9	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 10	mandato	mandare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	4	advcl	_	_
 11	come	come	ADP	IN	_	12	case	_	_
 12	emissario	emissario	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
@@ -15832,7 +15832,7 @@
 # sent_id = w01061050
 # text = Veniva studiata anche la medicina, particolarmente nell'Italia meridionale dove la medicina islamica influenzò la Scuola Medica di Salerno.
 # text_en = Medicine was also studied, especially in southern Italy, where Islamic medicine influenced the school at Salerno.
-1	Veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
+1	Veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
 2	studiata	studiare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 3	anche	anche	ADV	RB	_	2	advmod	_	_
 4	la	il	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -15844,7 +15844,7 @@
 9	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Italia	Italia	PROPN	NNP	Gender=Fem|Number=Sing	2	obl	_	_
 11	meridionale	meridionale	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	_
-12	dove	dove	PRON	WP	_	16	advmod	_	_
+12	dove	dove	ADV	RB	_	16	advmod	_	_
 13	la	il	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 14	medicina	medicina	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	_
 15	islamica	islamico	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	Proper=True
@@ -15957,14 +15957,14 @@
 12	e	e	CCONJ	CC	_	17	cc	_	_
 13	a	a	ADP	IN	_	14	case	_	_
 14	loro	loro	PRON	PRP	Case=Acc|Number=Plur|Person=3	17	obl	_	_
-15	venivano	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	17	aux:pass	_	_
+15	venivano	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	17	aux:pass	_	_
 16	scrupolosamente	scrupoloso	ADV	RB	_	17	advmod	_	_
 17	dedicati	dedicare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	3	conj	_	_
 18	riti	rito	NOUN	NN	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 19	e	e	CCONJ	CC	_	20	cc	_	_
 20	offerte	offerta	NOUN	NN	Gender=Fem|Number=Plur	18	conj	_	_
 21	che	che	PRON	WP	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
-22	venivano	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	23	aux:pass	_	_
+22	venivano	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	23	aux:pass	_	_
 23	reputati	reputare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	18	acl:relcl	_	_
 24	adatti	adatto	ADJ	JJ	Gender=Masc|Number=Plur	23	xcomp	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
@@ -15974,7 +15974,7 @@
 # text = Questo fu fatto in nave partendo dall'Europa continentale.
 # text_en = This was by boat from continental Europe.
 1	Questo	questo	PRON	PRP	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
-2	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+2	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 3	fatto	fatto	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	in	in	ADP	IN	_	5	case	_	_
 5	nave	nave	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
@@ -16097,7 +16097,7 @@
 1	La	il	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	città	città	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	cananea	cananea	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	Proper=True
-4	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	distrutta	distruggere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 6	da	da	ADP	IN	_	8	case	_	_
 7	un	uno	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -16273,7 +16273,7 @@
 7	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	giorno	giorno	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	_
 9	thailandesi	thailandesi	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	Proper=True
-10	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
+10	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
 11	riportati	riportare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 12-13	nella	_	_	_	_	_	_	_	_
 12	in	in	ADP	IN	_	14	case	_	_
@@ -16326,7 +16326,7 @@
 13	entrambi	entrambi	NOUN	NN	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	11	punct	_	_
 15	poiché	poiché	SCONJ	IN	_	17	mark	_	_
-16	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
+16	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	17	aux:pass	_	_
 17	calcolate	calcolare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	11	advcl	_	_
 18	secondo	secondo	ADP	IN	_	20	case	_	_
 19	il	il	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
@@ -16420,7 +16420,7 @@
 4	2002	2002	NUM	CD	_	2	flat	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	_	_
 6	Aldrin	Aldrin	PROPN	NNP	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
-7	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
+7	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
 8	attirato	attirare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 9	in	in	ADP	IN	_	11	case	_	_
 10	un	uno	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
@@ -16455,7 +16455,7 @@
 3	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	4	cop	_	_
 4	sposato	sposare	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 5	tre	tre	NUM	CD	_	6	nummod	_	_
-6	volte	volta	NOUN	NN	Gender=Fem|Number=Plur	4	advmod	_	SpaceAfter=No
+6	volte	volta	NOUN	NN	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w01069
@@ -16501,7 +16501,7 @@
 5	severe	severo	ADJ	JJ	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
 7	Carlo	Carlo	PROPN	NNP	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
-8	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	considerato	considerare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 10	un	uno	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	sovrano	sovrano	NOUN	NN	Gender=Masc|Number=Sing	9	xcomp	_	_
@@ -16620,7 +16620,7 @@
 7	di	di	ADP	IN	_	9	case	_	_
 8	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	bronzo	bronzo	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	_
-10	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
+10	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
 11	costruito	costruire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 12	in	in	ADP	IN	_	14	case	_	_
 13	quei	quello	DET	DT	Gender=Masc|Number=Plur	14	det	_	_
@@ -16630,7 +16630,7 @@
 17	1900	1900	NUM	CD	_	11	obl	_	_
 18	a.C.	a.C.	SYM	SYM	_	17	obl:tmod	_	OrigForm=aC
 19	e	e	CCONJ	CC	_	21	cc	_	_
-20	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
+20	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
 21	utilizzato	utilizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	11	conj	_	_
 22	continuamente	continuo	ADV	RB	_	21	advmod	_	_
 23-24	dalla	_	_	_	_	_	_	_	_
@@ -16656,7 +16656,7 @@
 1	Lo	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	spazio	spazio	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	centrale	centrale	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
-4	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	utilizzato	utilizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	per	per	ADP	IN	_	7	mark	_	_
 7	osservare	osservare	VERB	VB	Voice=Act	5	ccomp	_	_
@@ -16812,7 +16812,7 @@
 23	ciò	ciò	DET	DT	Gender=Masc|Number=Sing	20	obl	_	_
 24	che	che	PRON	WP	Gender=Masc|Number=Sing	27	nsubj	_	_
 25	potrebbero	potere	AUX	VBC	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	_
-26	essere	essere	VERB	VB	Voice=Pass	27	aux:pass	_	_
+26	essere	essere	AUX	VB	Voice=Pass	27	aux:pass	_	_
 27	considerate	considerare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	23	acl:relcl	_	_
 28	delle	di	DET	DT	Gender=Fem|Number=Plur	30	det	_	_
 29	semplici	semplice	ADJ	JJ	Gender=Fem|Number=Plur	30	amod	_	_
@@ -16866,7 +16866,7 @@
 8	,	,	PUNCT	,	_	4	punct	_	_
 9	la	il	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	penisola	penisola	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
-11	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
+11	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
 12	divisa	dividere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 13	in	in	ADP	IN	_	15	case	_	_
 14	due	due	NUM	CD	_	15	nummod	_	_
@@ -16965,7 +16965,7 @@
 18	la	il	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
 19	quale	quale	PRON	WP	Gender=Fem|Number=Sing	22	nsubj	_	_
 20	si	si	PRON	SE	Number=Sing|Person=3	22	expl	_	_
-21	stava	stava	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	aux	_	_
+21	stava	stare	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	aux	_	_
 22	imbarcando	imbarcare	VERB	VBG	Voice=Act	15	acl:relcl	_	_
 23	con	con	ADP	IN	_	24	case	_	_
 24	Trix	Trix	PROPN	NNP	Gender=Fem|Number=Sing	22	obl	_	_
@@ -17012,7 +17012,7 @@
 5	circa	circa	ADV	RB	_	7	advmod	_	_
 6	trentanove	trentanove	NUM	CD	_	7	nummod	_	_
 7	storie	storia	NOUN	NN	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
-8	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	pubblicate	pubblicare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 10-11	sul	_	_	_	_	_	_	_	_
 10	su	su	ADP	IN	_	12	case	_	_
@@ -17107,7 +17107,7 @@
 21	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	economia	economia	NOUN	NN	Gender=Fem|Number=Sing	16	conj	_	_
 23	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	25	cop	_	_
-24	tutti	tutti	NOUN	NN	Gender=Masc|Number=Plur	25	advmod	_	_
+24	tutti	tutti	NOUN	NN	Gender=Masc|Number=Plur	25	nmod	_	_
 25	fattori	fattore	NOUN	NN	Gender=Masc|Number=Plur	0	root	_	_
 26	che	che	PRON	WP	Gender=Masc|Number=Plur	27	nsubj	_	_
 27	ebbero	avere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	25	acl:relcl	_	_
@@ -17230,7 +17230,7 @@
 17	concludendo	concludere	VERB	VBG	Voice=Act	3	advcl	_	_
 18	quindi	quindi	CCONJ	CC	_	17	advmod	_	_
 19	che	che	SCONJ	IN	_	24	mark	_	_
-20	minori	minore	ADJ	JJR	Gender=Fem|Number=Plur	21	det	_	_
+20	minori	minore	ADJ	JJR	Gender=Fem|Number=Plur	21	amod	_	_
 21	perdite	perdita	NOUN	NN	Gender=Fem|Number=Plur	24	nsubj	_	_
 22	di	di	ADP	IN	_	23	case	_	_
 23	reddito	reddito	NOUN	NN	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -17308,7 +17308,7 @@
 4	pro	pro	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
 5	capite	capite	X	GW	_	4	flat	_	_
 6	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	aux	_	_
-7	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	8	aux:pass	_	_
+7	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	8	aux:pass	_	_
 8	considerato	considerare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 9	come	come	ADP	IN	_	10	case	_	_
 10	causa	causa	NOUN	NN	Gender=Fem|Number=Sing	8	obl	_	_
@@ -17371,7 +17371,7 @@
 17	fronte	fronte	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 18	mediorientale	mediorientale	ADJ	JJ	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	22	punct	_	_
-20	dove	dove	PRON	WP	_	22	advmod	_	_
+20	dove	dove	ADV	RB	_	22	advmod	_	_
 21	inizialmente	inizialmente	ADV	RB	_	22	advmod	_	_
 22	sembrava	sembrare	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	_
 23	che	che	SCONJ	IN	_	24	mark	_	_
@@ -17486,7 +17486,7 @@
 15	teoricamente	teorico	ADV	RB	_	24	advmod	_	_
 16	chiunque	chiunque	NOUN	NN	Gender=Masc|Number=Sing	24	nsubj	_	_
 17	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux	_	_
-18	stato	stato	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	19	aux:pass	_	_
+18	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	19	aux:pass	_	_
 19	battezzato	battezzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	16	acl:relcl	_	_
 20	con	con	ADP	IN	_	22	case	_	_
 21	la	il	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
@@ -17532,7 +17532,7 @@
 25	a	a	ADP	IN	_	27	case	_	_
 26	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	fine	fine	NOUN	NN	Gender=Fem|Number=Sing	29	obl	_	_
-28	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	29	aux:pass	_	_
+28	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	29	aux:pass	_	_
 29	presi	prendere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	17	conj	_	_
 30	di	di	ADP	IN	_	31	case	_	_
 31	mira	mira	NOUN	NN	Gender=Fem|Number=Sing	29	obl	_	_
@@ -17638,7 +17638,7 @@
 26	conquistar	conquistare	VERB	VB	Voice=Act	24	xcomp	_	_
 27	lo	lo	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
 28	perché	perché	SCONJ	IN	_	30	mark	_	_
-29	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	aux:pass	_	_
+29	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	aux:pass	_	_
 30	difeso	difendere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	24	advcl	_	_
 31	da	da	ADP	IN	_	33	case	_	_
 32	una	uno	DET	DT	Gender=Fem|Number=Sing	33	det	_	_
@@ -17709,7 +17709,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	Pearl	Pearl	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 6	Harbor	Harbor	PROPN	NNP	Gender=Fem|Number=Sing	5	flat	_	_
-7	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+7	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 8	spesso	spesso	ADV	RB	_	9	advmod	_	_
 9	usata	usato	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 10-11	nella	_	_	_	_	_	_	_	_
@@ -17965,7 +17965,7 @@
 7	arruolato	arruolare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	6	acl	_	_
 8	da	da	ADP	IN	_	9	case	_	_
 9	Venezia	Venezia	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	_
-10	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
+10	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
 11	lanciata	lanciare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 12-13	dalla	_	_	_	_	_	_	_	_
 12	da	da	ADP	IN	_	14	case	_	_
@@ -18001,7 +18001,7 @@
 3	durante	durante	ADP	IN	_	5	case	_	_
 4	il	il	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
 5	Rinascimento	Rinascimento	PROPN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
-6	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
+6	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
 7	basata	basare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 8	principalmente	principalmente	ADV	RB	_	7	advmod	_	_
 9-10	sulla	_	_	_	_	_	_	_	_
@@ -18044,7 +18044,7 @@
 1	Tuttavia	tuttavia	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux	_	_
-4	state	essere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	5	aux:pass	_	_
+4	state	essere	AUX	VBN	Gender=Fem|Number=Plur|Tense=Past	5	aux:pass	_	_
 5	fatte	fare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 6	analisi	analisi	NOUN	NN	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 7	statistiche	statistico	NOUN	NN	Gender=Fem|Number=Plur	6	amod	_	_
@@ -18116,7 +18116,7 @@
 5	circa	circa	ADV	RB	_	6	advmod	_	_
 6	quaranta	quaranta	NUM	CD	_	7	nummod	_	_
 7	famiglie	famiglia	NOUN	NN	Gender=Fem|Number=Plur	9	nsubj	_	_
-8	ci	ci	ADV	RB	_	9	expl	_	_
+8	ci	ci	PRON	EX	_	9	expl	_	_
 9	vivevano	vivere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
 10	e	e	CCONJ	CC	_	11	cc	_	_
 11	avevano	avere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	_
@@ -18177,7 +18177,7 @@
 5	platani	platano	NOUN	NN	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
 7	che	che	PRON	WP	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
-8	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	aux:pass	_	_
+8	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	aux:pass	_	_
 9	inizialmente	inizialmente	ADV	RB	_	10	advmod	_	_
 10	coltivati	coltivare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	2	acl:relcl	_	_
 11-12	nel	_	_	_	_	_	_	_	_
@@ -18193,7 +18193,7 @@
 20	Nuova	Nuova	PROPN	NNP	Gender=Fem|Number=Sing	19	flat	_	_
 21	Guinea	Guinea	PROPN	NNP	Gender=Fem|Number=Sing	19	flat	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	10	punct	_	_
-23	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
+23	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
 24	introdotti	introdurre	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 25	in	in	ADP	IN	_	26	case	_	_
 26	Africa	Africa	PROPN	NNP	Gender=Fem|Number=Sing	24	obl	_	_
@@ -18241,7 +18241,7 @@
 6	principi	principe|principio	NOUN	NN	Gender=Masc|Number=Plur	2	nmod	_	_
 7	di	di	ADP	IN	_	8	case	_	_
 8	funzionamento	funzionamento	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	_
-9	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+9	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 10	portato	portare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 11-12	dallo	_	_	_	_	_	_	_	_
 11	da	da	ADP	IN	_	14	case	_	_
@@ -18309,7 +18309,7 @@
 1	La	il	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Ford	Ford	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	T	T	PROPN	NNP	Gender=Fem|Number=Sing	2	flat	_	_
-4	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	proclamata	proclamare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 6	automobile	automobile	NOUN	NN	Gender=Fem|Number=Sing	5	xcomp	_	_
 7	più	più	ADV	RBS	_	8	advmod	_	_
@@ -18397,13 +18397,13 @@
 20	battesimo	battesimo	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 21	tra	tra	ADP	IN	_	22	case	_	_
 22	amici	amico	NOUN	NN	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
-23	,	,	PUNCT	,	_	27	punct	_	_
-24	mentre	mentre	SCONJ	CC	_	27	mark	_	_
-25	resta	restare	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	aux	_	_
-26	invece	invece	ADV	RB	_	27	advmod	_	_
-27	diffuso	diffondere	VERB	VBN	Gender=Masc|Number=Sing|Voice=Pass	15	advcl	_	_
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	mentre	mentre	SCONJ	CC	_	25	mark	_	_
+25	resta	restare	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	_
+26	invece	invece	ADV	RB	_	25	advmod	_	_
+27	diffuso	diffondere	VERB	VBN	Gender=Masc|Number=Sing|Voice=Pass	25	xcomp	_	_
 28	l'	il	DET	DT	Gender=Masc|Number=Sing	29	det	_	SpaceAfter=No
-29	uso	uso	NOUN	NN	Gender=Masc|Number=Sing	27	nsubj	_	_
+29	uso	uso	NOUN	NN	Gender=Masc|Number=Sing	25	nsubj	_	_
 30-31	del	_	_	_	_	_	_	_	_
 30	di	di	ADP	IN	_	32	case	_	_
 31	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -18483,7 +18483,7 @@
 8	di	di	ADP	IN	_	10	case	_	_
 9	le	il	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	ere	era	NOUN	NN	Gender=Fem|Number=Plur	7	nmod	_	_
-11	venivano	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
+11	venivano	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
 12	cambiati	cambiare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 13	più	più	ADV	RBR	_	14	advmod	_	_
 14	spesso	spesso	ADV	RB	_	12	advmod	_	_
@@ -18495,7 +18495,7 @@
 19	di	di	ADP	IN	_	21	case	_	_
 20	gli	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	imperatori	imperatore	NOUN	NN	Gender=Masc|Number=Plur	17	nmod	_	_
-22	venivano	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	23	aux:pass	_	_
+22	venivano	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	23	aux:pass	_	_
 23	scelti	scegliere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	12	conj	_	_
 24	in	in	ADP	IN	_	25	case	_	_
 25	modo	modo	NOUN	NN	Gender=Masc|Number=Sing	23	obl	_	_
@@ -18563,13 +18563,13 @@
 13	tra	tra	ADP	IN	_	15	case	_	_
 14	i	il	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	3	3	NUM	CD	_	19	nmod	_	_
-16	e	e	VERB	VBC	_	18	cc	_	_
-17	i	il	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	i	il	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
 18	10	10	NUM	CD	_	15	conj	_	_
 19	milioni	milione	NUM	CD	_	12	obj	_	_
 20	di	di	ADP	IN	_	21	case	_	_
 21	civili	civili	NOUN	NN	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	,	_	19	nmod	_	_
+22	,	,	PUNCT	,	_	19	punct	_	_
 23	per	per	ADP	IN	_	26	case	_	_
 24	la	il	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 25	maggior	maggiore	ADJ	JJS	Degree=Sup|Gender=Fem|Number=Sing	26	amod	_	_
@@ -18607,7 +18607,7 @@
 18	termini	termine	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	_
 19	di	di	ADP	IN	_	20	case	_	_
 20	popolazione	popolazione	NOUN	NN	Gender=Fem|Number=Sing	18	nmod	_	_
-21	che	che	PRON	WP	Gender=Fem|Number=Sing	23	cc	_	_
+21	che	che	CCONJ	CC	Gender=Fem|Number=Sing	23	cc	_	_
 22	di	di	ADP	IN	_	23	case	_	_
 23	economia	economia	NOUN	NN	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
@@ -18682,7 +18682,7 @@
 12	cavalleria	cavalleria	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 13	pesante	pesante	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 14	britannica	britannico	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	Proper=True
-15	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
+15	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
 16	distrutta	distruggere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	9	ccomp	_	_
 17	come	come	ADP	IN	_	18	case	_	_
 18	forza	forza	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
@@ -18749,7 +18749,7 @@
 9	dipendono	dipendere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 10	da	da	ADP	IN	_	13	case	_	_
 11	come	come	ADV	WRB	_	13	advmod	_	_
-12	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	aux:pass	_	_
+12	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	aux:pass	_	_
 13	definita	definire	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	9	ccomp	_	_
 14	la	il	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
 15	musica	musica	NOUN	NN	Gender=Fem|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
@@ -18836,7 +18836,7 @@
 # text_en = China was defeated, and in 1842 agreed to the provisions of the Treaty of Nanking.
 1	La	il	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Cina	Cina	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
-3	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	sconfitta	sconfiggere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 5	e	e	CCONJ	CC	_	9	cc	_	_
 6-7	nel	_	_	_	_	_	_	_	_
@@ -18862,7 +18862,7 @@
 3	di	di	ADP	IN	_	4	case	_	_
 4	Hong	Hong	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 5	Kong	Kong	PROPN	NNP	Gender=Fem|Number=Sing	4	flat	_	_
-6	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
+6	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	aux:pass	_	_
 7	ceduta	cedere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 8-9	alla	_	_	_	_	_	_	_	_
 8	a	a	ADP	IN	_	10	case	_	_
@@ -18880,7 +18880,7 @@
 20	e	e	CCONJ	CC	_	21	cc	_	_
 21	Guangzhou	Guangzhou	PROPN	NNP	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	16	punct	_	_
-23	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
+23	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
 24	aperti	aprire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	7	conj	_	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	IN	_	27	case	_	_
@@ -18912,7 +18912,7 @@
 11	;	;	PUNCT	:	_	4	punct	_	_
 12	i	il	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
 13	cinesi	cinese	PROPN	NN	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
-14	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
+14	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
 15	nuovamente	nuovo	ADV	RB	_	16	advmod	_	_
 16	sconfitti	sconfitto	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	4	parataxis	_	_
 17	e	e	CCONJ	CC	_	18	cc	_	_
@@ -19037,7 +19037,7 @@
 # text = Le venne proposto di recitare in vari film, spot televisivi e progetti teatrali, ma nessuno di questi suscitò il suo interesse.
 # text_en = She was offered several scripts, television commercials, and stage projects, but none piqued her interest.
 1	Le	le	PRON	PRP	Case=Acc|Gender=Fem|Number=Plur|Person=3	3	iobj	_	_
-2	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+2	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 3	proposto	proporre	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	di	di	ADP	IN	_	5	mark	_	_
 5	recitare	recitare	VERB	VB	Voice=Act	3	xcomp	_	_
@@ -19094,7 +19094,7 @@
 24	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Resistenza	Resistenza	PROPN	NN	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	5	punct	_	_
-27	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	28	aux:pass	_	_
+27	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	28	aux:pass	_	_
 28	giustiziato	giustiziare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 29-30	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 29	in	in	ADP	IN	_	31	case	_	_
@@ -19117,7 +19117,7 @@
 6	in	in	ADP	IN	_	7	case	_	_
 7	pubblico	pubblico	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 8	non	non	ADV	RB	Polarity=Neg	10	advmod	_	_
-9	venisse	venire	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+9	venisse	venire	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 10	mostrata	mostrare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	ccomp	_	_
 11	eccessiva	eccessivo	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 12	simpatia	simpatia	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
@@ -19126,7 +19126,7 @@
 15	e	e	CCONJ	CC	_	19	cc	_	_
 16	che	che	SCONJ	IN	_	19	mark	_	_
 17	non	non	ADV	RB	Polarity=Neg	19	advmod	_	_
-18	venissero	venire	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
+18	venissero	venire	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
 19	dati	dare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	10	conj	_	_
 20	riconoscimenti	riconoscimento	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
 21	ufficiali	ufficiale	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	_
@@ -19188,7 +19188,7 @@
 # sent_id = w01105053
 # text = Venne finita relativamente tardi durante la guerra; nonostante alcuni B-29 fossero equipaggiati con l'Eagle e funzionassero bene, fu troppo tardi per fare la differenza.
 # text_en = It was completed rather late in the war; although a number of B-29s were equipped with Eagle and it worked well, it came too late to make much difference.
-1	Venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
+1	Venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
 2	finita	finire	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 3	relativamente	relativo	ADV	RB	_	4	advmod	_	_
 4	tardi	tardi	ADV	RB	_	2	advmod	_	_
@@ -19386,7 +19386,7 @@
 5	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	popolazione	popolazione	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
-8	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	creati	creare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 10	nuovi	nuovo	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	_
 11	quartieri	quartiere	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
@@ -19777,7 +19777,7 @@
 5	somma	somma	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
 6	che	che	PRON	WP	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	_
-8	essere	essere	VERB	VB	Voice=Pass	9	aux:pass	_	_
+8	essere	essere	AUX	VB	Voice=Pass	9	aux:pass	_	_
 9	ritirata	ritirare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	5	acl:relcl	_	_
 10-11	dai	_	_	_	_	_	_	_	_
 10	da	da	ADP	IN	_	12	case	_	_
@@ -20028,7 +20028,7 @@
 # sent_id = w01116036
 # text = Vennero pubblicate solo 3000 copie della prima edizione.
 # text_en = Only 3000 copies were published of the first edition.
-1	Vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
+1	Vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	aux:pass	_	_
 2	pubblicate	pubblicare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 3	solo	solo	ADV	RB	_	4	advmod	_	_
 4	3000	3000	NUM	CD	_	5	nummod	_	_
@@ -20068,7 +20068,7 @@
 20	Un	Un	DET	DT	Gender=Masc|Number=Sing	22	det	_	Proper=True
 21	nuovo	nuovo	ADJ	JJ	Gender=Masc|Number=Sing	22	amod	_	Proper=True
 22	mondo	mondo	PROPN	NN	Gender=Masc|Number=Sing	16	conj	_	_
-23	erano	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
+23	erano	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	24	aux:pass	_	_
 24	stimate	stimare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 25	rispettivamente	rispettivo	ADV	RB	_	24	advmod	_	_
 26	a	a	ADP	IN	_	30	case	_	_
@@ -20209,7 +20209,7 @@
 4	il	il	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 5	suo	suo	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	6	det:poss	_	_
 6	aspetto	aspetto	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
-7	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
+7	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
 8	definito	definire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	11	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	Jasmine	Jasmine	PROPN	NNP	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -20488,7 +20488,7 @@
 # text = Wilkes fu rieletto ed espulso altre due volte prima che la Camera dei comuni decidesse che la sua candidatura non era valida e dichiarasse vincitore il secondo favorito.
 # text_en = Wilkes was re-elected and expelled twice more, before the House of Commons resolved that his candidature was invalid and declared the runner-up as the victor.
 1	Wilkes	Wilkes	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
-2	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+2	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 3	rieletto	rieleggere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	ed	e	CCONJ	CC	_	5	cc	_	_
 5	espulso	espellere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	3	conj	_	_
@@ -20569,7 +20569,7 @@
 15	sua	suo	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det:poss	_	_
 16	fede	fede	NOUN	NN	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 17	non	non	ADV	RB	Polarity=Neg	19	advmod	_	_
-18	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
+18	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
 19	condivisa	condividere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	conj	_	_
 20-21	dagli	_	_	_	_	_	_	_	_
 20	da	da	ADP	IN	_	23	case	_	_
@@ -20615,7 +20615,7 @@
 15	di	di	ADP	IN	_	16	case	_	Proper=True
 16	Strathearn	Strathearn	PROPN	NNP	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	8	punct	_	_
-18	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
+18	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
 19	accusato	accusare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 20	di	di	ADP	IN	_	21	case	_	_
 21	adulterio	adulterio	NOUN	NN	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
@@ -21067,7 +21067,7 @@
 17	che	che	SCONJ	IN	_	21	mark	_	_
 18	questi	questo	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
 19	siti	sito	NOUN	NN	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
-20	venissero	venire	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
+20	venissero	venire	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
 21	inseriti	inserire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	16	ccomp	_	_
 22-23	nello	_	_	_	_	_	_	_	_
 22	in	in	ADP	IN	_	24	case	_	_
@@ -21098,7 +21098,7 @@
 12	popolo	popolo	NOUN	NN	Gender=Masc|Number=Sing	5	ccomp	_	_
 13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 14	pacifico	pacifico	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
-15	"	"	CCONJ	CC	_	14	punct	_	_
+15	"	"	PUNCT	''	_	14	punct	_	_
 16	data	dare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past|Voice=Pass	20	acl	_	_
 17	la	il	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
 18	loro	loro	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	20	det:poss	_	_
@@ -21114,7 +21114,7 @@
 1	Le	il	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	vele	vela	NOUN	NN	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 3	non	non	ADV	RB	Polarity=Neg	5	advmod	_	_
-4	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
+4	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	aux:pass	_	_
 5	rappresentate	rappresentare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 6-7	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 6	in	in	ADP	IN	_	8	case	_	_
@@ -21134,7 +21134,7 @@
 19	che	che	SCONJ	IN	_	23	mark	_	_
 20	le	il	DET	DT	Gender=Fem|Number=Plur	21	det	_	_
 21	canoe	canoa	NOUN	NN	Gender=Fem|Number=Plur	23	nsubj:pass	_	_
-22	fossero	essere	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	23	aux:pass	_	_
+22	fossero	essere	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	23	aux:pass	_	_
 23	usate	usare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	18	ccomp	_	_
 24-25	dagli	_	_	_	_	_	_	_	_
 24	da	da	ADP	IN	_	27	case	_	_
@@ -21631,7 +21631,7 @@
 3	periodo	periodo	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	Marcelle	Marcelle	PROPN	NNP	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-6	veniva	venire	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
+6	veniva	venire	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
 7	spesso	spesso	ADV	RB	_	8	advmod	_	_
 8	lasciata	lasciare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 9	sola	solo	ADJ	JJ	Gender=Fem|Number=Sing	8	xcomp	_	_
@@ -21656,7 +21656,7 @@
 # text = Queste furono quasi completamente dimenticate fino alla morte di Smith.
 # text_en = These were almost completely forgotten until after Smith's death.
 1	Queste	questo	PRON	PRP	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
-2	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+2	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 3	quasi	quasi	ADV	RB	_	4	advmod	_	_
 4	completamente	completo	ADV	RB	_	5	advmod	_	_
 5	dimenticate	dimenticare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
@@ -21841,7 +21841,7 @@
 12	polonio	polonio	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
 14	che	che	PRON	WP	Gender=Masc|Number=Plur	16	nsubj:pass	_	_
-15	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
+15	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
 16	usati	usare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	10	acl:relcl	_	_
 17	in	in	ADP	IN	_	18	case	_	_
 18	molte	molto	NOUN	NN	Gender=Fem|Number=Plur	16	obl	_	_
@@ -21903,7 +21903,7 @@
 13	Errani	Errani	PROPN	NNP	Gender=Fem|Number=Sing	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	3	punct	_	_
 15	ma	ma	CCONJ	CC	_	17	cc	_	_
-16	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	17	aux:pass	_	_
+16	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	17	aux:pass	_	_
 17	sconfitta	sconfiggere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	3	conj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -21984,13 +21984,13 @@
 1	Il	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	cavaliere	cavaliere	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	Lyvet	Lyvet	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
-4	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	rilasciato	rilasciare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	e	e	CCONJ	CC	_	11	cc	_	_
 7	il	il	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 8	suo	suo	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det:poss	_	_
 9	seguace	seguace	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
-10	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
+10	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
 11	gettato	gettare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	conj	_	_
 12-13	nella	_	_	_	_	_	_	_	_
 12	in	in	ADP	IN	_	14	case	_	_
@@ -22043,7 +22043,7 @@
 10	1954	1954	NUM	CD	_	8	obl:tmod	_	SpaceAfter=No
 11	)	)	PUNCT	)	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
-13	dove	dove	PRON	WP	_	14	advmod	_	_
+13	dove	dove	ADV	RB	_	14	advmod	_	_
 14	interpreta	interpretare	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	_
 15	il	il	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	ruolo	ruolo	NOUN	NN	Gender=Masc|Number=Sing	14	obj	_	_
@@ -22161,7 +22161,7 @@
 1	Si	si	PRON	SE	Number=Sing|Person=3	2	expl	_	_
 2	riprese	riprendere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 3	e	e	CCONJ	CC	_	5	cc	_	_
-4	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	dimesso	dimettere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	2	conj	_	_
 6-7	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 6	da	da	ADP	IN	_	8	case	_	_
@@ -22248,7 +22248,7 @@
 3	teologia	teologia	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 4	dovrebbe	dovere	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	_
 5	quindi	quindi	ADV	RB	_	7	advmod	_	_
-6	essere	essere	VERB	VB	Voice=Pass	7	aux:pass	_	_
+6	essere	essere	AUX	VB	Voice=Pass	7	aux:pass	_	_
 7	creata	creare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 8	in	in	ADP	IN	_	9	case	_	_
 9	base	base	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -22370,7 +22370,7 @@
 # text = Questa volta la ricevette, ma rifiutò di credere che non volesse più essere sua moglie.
 # text_en = This time it reached him, but he refused to believe that she no longer wanted to be married to him.
 1	Questa	questo	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	4	advmod	_	_
+2	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 3	la	il	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	4	obj	_	_
 4	ricevette	ricevere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
@@ -22555,7 +22555,7 @@
 3	che	che	SCONJ	IN	_	10	mark	_	_
 4	l'	il	DET	DT	Gender=Fem|Number=Sing	5	det	_	SpaceAfter=No
 5	Albania	Albania	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
-6	sarebbe	essere	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	_
+6	sarebbe	essere	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	_
 7	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	10	cop	_	_
 8	sotto	sotto	ADP	IN	_	10	case	_	_
 9	la	il	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
@@ -22743,7 +22743,7 @@
 21	livello	livello	NOUN	NN	Gender=Masc|Number=Sing	25	obl	_	_
 22	mondiale	mondiale	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	21	punct	_	_
-24	vengono	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
+24	vengono	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	25	aux:pass	_	_
 25	investiti	investire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	14	acl:relcl	_	_
 26	miliardi	miliardo	NOUN	NN	Gender=Masc|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	_	_
@@ -22795,7 +22795,7 @@
 14	polizia	polizia	NOUN	NN	Gender=Fem|Number=Sing	18	nsubj	_	_
 15	di	di	ADP	IN	_	16	case	_	_
 16	Essen	Essen	PROPN	NNP	Gender=Fem|Number=Sing	14	nmod	_	_
-17	sta	sta	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	_
+17	sta	stare	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	_
 18	indagando	indagare	VERB	VBG	Voice=Act	0	root	_	_
 19	su	su	ADP	IN	_	21	case	_	_
 20	4	4	NUM	CD	_	21	nummod	_	_
@@ -22831,7 +22831,7 @@
 7	che	che	SCONJ	IN	_	11	mark	_	_
 8	anche	anche	ADV	RB	_	9	advmod	_	_
 9	altri	altro	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
-10	venissero	venire	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
+10	venissero	venire	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	11	aux:pass	_	_
 11	indagati	indagati	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	6	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -22874,8 +22874,8 @@
 10	la	il	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	tastiera	tastiera	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	3	punct	_	_
-13	come	come	SCONJ	IN	_	14	advmod	_	_
-14	anticipato	anticipare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	3	parataxis	_	_
+13	come	come	SCONJ	IN	_	14	mark	_	_
+14	anticipato	anticipare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	3	advcl	_	_
 15-16	dai	_	_	_	_	_	_	_	_
 15	da	da	ADP	IN	_	17	case	_	_
 16	i	il	DET	DT	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -23059,7 +23059,7 @@
 13	,	,	PUNCT	,	_	17	punct	_	_
 14	come	come	SCONJ	IN	_	17	case	_	_
 15	già	già	ADV	RB	_	17	advmod	_	_
-16	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	17	aux:pass	_	_
+16	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	17	aux:pass	_	_
 17	detto	dire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	12	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -23193,7 +23193,7 @@
 7	almeno	almeno	ADV	RB	_	8	advmod	_	_
 8	da	da	ADP	IN	_	11	mark	_	_
 9	quando	quando	SCONJ	IN	_	8	fixed	_	_
-10	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
+10	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	aux:pass	_	_
 11	suonato	suonare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	6	advcl	_	_
 12	l'	il	DET	DT	Gender=Masc|Number=Sing	13	det	_	SpaceAfter=No
 13	organo	organo	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
@@ -23281,7 +23281,7 @@
 5	modello	modello	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 6	di	di	ADP	IN	_	7	case	_	_
 7	smartphone	smartphone	NOUN	NN	Gender=Masc	5	nmod	_	_
-8	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+8	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 9	completamente	completo	ADV	RB	_	10	advmod	_	_
 10	accantonata	accantonare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	_	_
@@ -23911,7 +23911,7 @@
 18	stampa	stampa	NOUN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
 19	dpa	dpa	PROPN	NN	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	13	punct	_	_
-21	verranno	venire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|Voice=Pass	23	aux:pass	_	_
+21	verranno	venire	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut|Voice=Pass	23	aux:pass	_	_
 22	solo	solo	ADV	RB	_	23	advmod	_	_
 23	attivati	attivare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	6	parataxis	_	_
 24	se	se	SCONJ	IN	_	38	mark	_	SpaceAfter=No
@@ -24040,7 +24040,7 @@
 12	di	di	ADP	IN	_	13	case	_	_
 13	Comey	Comey	PROPN	NNP	Gender=Masc|Number=Sing	11	nmod	_	_
 14	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	aux	_	_
-15	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	18	aux:pass	_	_
+15	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	18	aux:pass	_	_
 16	a	a	ADP	IN	_	17	case	_	_
 17	malapena	malapena	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	_
 18	commentata	commentare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	SpaceAfter=No
@@ -24050,7 +24050,7 @@
 # text = Se fosse eletto il suo oppositore Democratico, ha assicurato che "verrebbe indagata per anni".
 # text_en = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
 1	Se	se	SCONJ	IN	_	3	mark	_	_
-2	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux:pass	_	_
+2	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux:pass	_	_
 3	eletto	eleggere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	10	advcl	_	_
 4	il	il	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 5	suo	suo	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	6	det:poss	_	_
@@ -24061,7 +24061,7 @@
 10	assicurato	assicurare	VERB	VBN	Tense=Past	0	root	_	_
 11	che	che	SCONJ	IN	_	14	mark	_	_
 12	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
-13	verrebbe	venire	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	aux:pass	_	_
+13	verrebbe	venire	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	aux:pass	_	_
 14	indagata	indagare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	10	ccomp	_	_
 15	per	per	ADP	IN	_	16	case	_	_
 16	anni	anno	NOUN	NN	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
@@ -24374,7 +24374,7 @@
 13	contesti	contesto	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	_
 14	lavorativi	lavorativo	ADJ	JJ	Gender=Masc|Number=Plur	13	amod	_	_
 15	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	_
-16	essere	essere	VERB	VB	Voice=Pass	17	aux:pass	_	_
+16	essere	essere	AUX	VB	Voice=Pass	17	aux:pass	_	_
 17	risolta	risolvere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 18	senza	senza	ADP	IN	_	19	case	_	_
 19	conflitti	conflitto	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
@@ -24421,7 +24421,7 @@
 15	guida	guida	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	_
 16	non	non	ADV	RB	Polarity=Neg	19	advmod	_	_
 17	fossero	essere	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	aux	_	_
-18	stati	essere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	19	aux:pass	_	_
+18	stati	essere	AUX	VBN	Gender=Masc|Number=Plur|Tense=Past	19	aux:pass	_	_
 19	inclusi	includere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	5	ccomp	_	SpaceAfter=No
 20	:	:	PUNCT	:	_	5	punct	_	_
 21	"	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
@@ -24454,7 +24454,7 @@
 8	cosa	cosa	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	_
 9	perché	perché	SCONJ	IN	_	12	mark	_	_
 10	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	aux	_	_
-11	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	12	aux:pass	_	_
+11	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	12	aux:pass	_	_
 12	sviluppata	sviluppare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	4	advcl	_	_
 13	"	"	PUNCT	``	_	16	punct	_	Proper=True|SpaceAfter=No
 14	in	in	ADP	IN	_	16	case	_	_
@@ -24506,7 +24506,7 @@
 7	appello	appello	NOUN	NN	Gender=Masc|Number=Sing	5	obj	_	_
 8	che	che	PRON	WP	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
 9	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	aux	_	_
-10	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	11	aux:pass	_	_
+10	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	11	aux:pass	_	_
 11	respinto	respingere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	7	acl:relcl	_	_
 12-13	dalla	_	_	_	_	_	_	_	_
 12	da	da	ADP	IN	_	14	case	_	_
@@ -24536,7 +24536,7 @@
 11	dopo	dopo	ADP	IN	_	14	mark	_	_
 12-13	averlo	_	_	_	_	_	_	_	_
 12	aver	avere	AUX	VB	Voice=Act	14	aux	_	_
-13	lo	lo	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+13	lo	lo	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
 14	dedotto	dedurre	VERB	VBN	Tense=Past	3	advcl	_	_
 15-16	dalle	_	_	_	_	_	_	_	_
 15	da	da	ADP	IN	_	17	case	_	_
@@ -24548,7 +24548,7 @@
 21	completate	completare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past|Voice=Pass	19	acl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	3	punct	_	_
 23	senza	senza	ADP	IN	_	26	mark	_	_
-24	essere	essere	VERB	VB	Voice=Act	26	cop	_	_
+24	essere	essere	AUX	VB	Voice=Act	26	cop	_	_
 25	in	in	ADP	IN	_	26	case	_	_
 26	grado	grado	NOUN	NN	Gender=Masc|Number=Sing	3	advcl	_	_
 27	di	di	ADP	IN	_	28	mark	_	_
@@ -24890,7 +24890,7 @@
 5	buono	buono	NOUN	NN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
 6	che	che	PRON	WP	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 7	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	_
-8	essere	essere	VERB	VB	Voice=Pass	9	aux:pass	_	_
+8	essere	essere	AUX	VB	Voice=Pass	9	aux:pass	_	_
 9	salvato	salvare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	acl:relcl	_	_
 10-11	sullo	_	_	_	_	_	_	_	_
 10	su	su	ADP	IN	_	12	case	_	_
@@ -25149,7 +25149,7 @@
 # text = È stato detto agli studenti dell'Università Luiss nel corso di un incontro organizzato a Roma.
 # text_en = Students at LUISS University were told during the course of a meeting which took place in Rome.
 1	È	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	aux	_	_
-2	stato	essere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
+2	stato	essere	AUX	VBN	Gender=Masc|Number=Sing|Tense=Past	3	aux:pass	_	_
 3	detto	dire	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4-5	agli	_	_	_	_	_	_	_	_
 4	a	a	ADP	IN	_	6	case	_	_
@@ -25684,7 +25684,7 @@
 4	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 5	ha	avere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	_
 6	detto	dire	VERB	VBN	Tense=Past	0	root	_	SpaceAfter=No
-7	.	.	X	NFP	_	6	punct	_	_
+7	.	.	PUNCT	NFP	_	6	punct	_	_
 8	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 9	Il	Il	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	comico	comico	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -25861,7 +25861,7 @@
 # text_en = And they must be greeted with an open spirit and clear mind because they form the new generation of beauty and hope.
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	devono	dovere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	_
-3	essere	essere	VERB	VB	Voice=Pass	4	aux:pass	_	_
+3	essere	essere	AUX	VB	Voice=Pass	4	aux:pass	_	_
 4	accolti	accogliere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 5	con	con	ADP	IN	_	7	case	_	_
 6	uno	uno	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
@@ -25949,7 +25949,7 @@
 6	altre	altro	DET	DT	Gender=Fem|Number=Plur	7	det	_	_
 7	cose	cosa	NOUN	NN	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
-9	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
+9	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
 10	tutto	tutto	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 11	già	già	ADV	RB	_	12	advmod	_	_
 12	pianificato	pianificare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	parataxis	_	SpaceAfter=No
@@ -25974,7 +25974,7 @@
 4	di	di	ADP	IN	_	6	case	_	_
 5	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	FSLN	FSLN	PROPN	NNP	Gender=Masc|Number=Sing	3	nmod	_	_
-7	stanno	stanno	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	_
+7	stanno	stare	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	_
 8	già	già	ADV	RB	_	9	advmod	_	_
 9	festeggiando	festeggiare	VERB	VBG	Voice=Act	0	root	_	_
 10	la	il	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
@@ -26077,7 +26077,7 @@
 1	In	in	ADP	IN	_	3	case	_	_
 2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1882	1882	NUM	CD	_	5	obl	_	_
-4	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	messo	mettere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	in	in	ADP	IN	_	7	case	_	_
 7	azione	azione	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
@@ -26115,7 +26115,7 @@
 16	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	comune	comune	NOUN	NN	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	14	punct	_	_
-19	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	20	aux:pass	_	_
+19	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	20	aux:pass	_	_
 20	occupati	occupare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 21	da	da	ADP	IN	_	22	case	_	_
 22	giocatori	giocatore	NOUN	NN	Gender=Masc|Number=Plur	20	obl	_	_
@@ -26142,7 +26142,7 @@
 12	centro	centro	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 13	città	città	NOUN	NN	Gender=Fem|Number=Sing	12	compound	_	_
 14	che	che	PRON	WP	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
-15	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
+15	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	aux:pass	_	_
 16	risparmiato	risparmiare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	5	acl:relcl	_	_
 17-18	dalla	_	_	_	_	_	_	_	_
 17	da	da	ADP	IN	_	19	case	_	_
@@ -26172,7 +26172,7 @@
 5	il	il	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 6	vecchio	vecchio	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 7	chiostro	chiostro	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
-8	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	venduto	vendere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 10-11	dallo	_	_	_	_	_	_	_	_
 10	da	da	ADP	IN	_	12	case	_	_
@@ -26264,7 +26264,7 @@
 9	XIII	XIII	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
 10	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
 11	e	e	CCONJ	CC	_	13	cc	_	_
-12	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
+12	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
 13	ristrutturato	ristrutturare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	6	conj	_	_
 14	dopo	dopo	ADP	IN	_	16	case	_	_
 15	la	il	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
@@ -26352,7 +26352,7 @@
 2	Giardini	Giardini	PROPN	NN	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 3	Yerba	Yerba	PROPN	NNP	Gender=Masc|Number=Plur	2	nmod	_	_
 4	Buena	Buena	PROPN	NNP	Gender=Masc|Number=Plur	3	flat	_	_
-5	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
+5	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
 6	costruiti	costruire	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
 7	a	a	ADP	IN	_	9	case	_	_
@@ -26392,22 +26392,24 @@
 # sent_id = w02006036
 # text = Dagli anni '60, l'economia della città è stata in netto declino.
 # text_en = Since the 1960s, the city's economy has been in steep decline.
-1	Dagli	da	DET	DT	Gender=Masc|Number=Plur	2	case	_	_
-2	anni	anno	NOUN	NN	Gender=Masc|Number=Plur	14	obl	_	_
-3	'60	'60	NUM	CD	_	2	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	,	_	2	punct	_	_
-5	l'	il	DET	DT	Gender=Fem|Number=Sing	6	det	_	SpaceAfter=No
-6	economia	economia	NOUN	NN	Gender=Fem|Number=Sing	14	nsubj	_	_
-7-8	della	_	_	_	_	_	_	_	_
-7	di	di	ADP	IN	_	9	case	_	_
-8	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	città	città	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	_
-10	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	_
-11	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	14	cop	_	_
-12	in	in	ADP	IN	_	14	case	_	_
-13	netto	netto	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
-14	declino	declino	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	14	punct	_	_
+1-2	Dagli	_	_	_	_	_	_	_	_
+1	Da	da	ADP	IN	Gender=Masc|Number=Plur	3	case	_	_
+2	gli	il	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
+3	anni	anno	NOUN	NN	Gender=Masc|Number=Plur	15	obl	_	_
+4	'60	'60	NUM	CD	_	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	l'	il	DET	DT	Gender=Fem|Number=Sing	7	det	_	SpaceAfter=No
+7	economia	economia	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	IN	_	10	case	_	_
+9	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	_
+11	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	_
+12	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	15	cop	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	netto	netto	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	_
+15	declino	declino	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = w02006081
 # text = Durante le elezioni generali del 2010, il Partito Laburista fu in grado di vincere in tutti i 7 distretti votanti.
@@ -26454,7 +26456,7 @@
 10	di	di	ADP	IN	_	12	case	_	_
 11	questo	questo	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	incidente	incidente	NOUN	NN	Gender=Masc|Number=Sing	3	nmod	_	_
-13	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	14	aux:pass	_	_
+13	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	14	aux:pass	_	_
 14	discussi	discutere	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 15	animatamente	animato	ADV	RB	_	14	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	14	punct	_	_
@@ -26507,7 +26509,7 @@
 5	che	che	SCONJ	IN	_	10	mark	_	_
 6	i	il	DET	DT	Gender=Masc|Number=Plur	7	det	_	_
 7	cereali	cereale	NOUN	NN	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
-8	fossero	essere	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+8	fossero	essere	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 9	ulteriormente	ulteriormente	ADV	RB	_	10	advmod	_	_
 10	trasportati	trasportare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	4	ccomp	_	_
 11	perché	perché	SCONJ	IN	_	13	mark	_	_
@@ -26531,7 +26533,7 @@
 6	a	a	ADP	IN	_	8	case	_	_
 7	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Russia	Russia	PROPN	NNP	Gender=Fem|Number=Sing	3	conj	_	_
-9	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
+9	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	aux:pass	_	_
 10	negato	negare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 11	il	il	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	permesso	permesso	NOUN	NN	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
@@ -26571,7 +26573,7 @@
 14	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	tempo	tempo	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	21	punct	_	_
-17	dove	dove	PRON	WP	_	21	advmod	_	_
+17	dove	dove	ADV	RB	_	21	advmod	_	_
 18	molti	molto	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
 19	siti	sito	NOUN	NN	Gender=Masc|Number=Plur	21	nsubj	_	_
 20	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	cop	_	_
@@ -26581,12 +26583,12 @@
 # sent_id = w02008028
 # text = Come nella maggior parte delle aree nell'Europa meridionale, i reperti risalgono all'inizio del V secolo a.C.
 # text_en = Like the majority of sites in southern Europe, the finding dates back to the early 5th century BC.
-1	Come	come	ADP	IN	_	16	case	_	_
+1	Come	come	ADP	IN	_	5	case	_	_
 2-3	nella	_	_	_	_	_	_	_	_
-2	in	in	ADP	IN	_	5	case	_	_
+2	in	in	ADP	IN	_	1	fixed	_	_
 3	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	maggior	maggiore	ADJ	JJS	Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	_
-5	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	1	nmod	_	_
+5	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
 6-7	delle	_	_	_	_	_	_	_	_
 6	di	di	ADP	IN	_	8	case	_	_
 7	le	il	DET	DT	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
@@ -26596,7 +26598,7 @@
 10	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	_
 12	meridionale	meridionale	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	Proper=True|SpaceAfter=No
-13	,	,	PUNCT	,	_	1	punct	_	_
+13	,	,	PUNCT	,	_	5	punct	_	_
 14	i	il	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
 15	reperti	reperto	NOUN	NN	Gender=Masc|Number=Plur	16	nsubj	_	_
 16	risalgono	risalire	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
@@ -26719,7 +26721,7 @@
 11	questo	questo	PRON	PRP	Gender=Masc|Number=Sing	12	nsubj	_	_
 12	causò	causare	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
 13	ancora	ancora	ADV	RB	_	14	advmod	_	_
-14	più	più	DET	DT	Gender=Masc|Number=Sing	15	advmod	_	_
+14	più	più	ADV	RB	Gender=Masc|Number=Sing	15	advmod	_	_
 15	malcontento	malcontento	NOUN	NN	Gender=Masc|Number=Sing	12	obj	_	_
 16	tra	tra	ADP	IN	_	18	case	_	_
 17	la	il	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
@@ -26759,7 +26761,7 @@
 9	sua	suo	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	10	det:poss	_	_
 10	fuga	fuga	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 11	e	e	CCONJ	CC	_	13	cc	_	_
-12	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
+12	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
 13	riconosciuto	riconoscere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	4	conj	_	_
 14	diverse	diverso	DET	DT	Gender=Fem|Number=Plur	15	amod	_	_
 15	volte	volta	NOUN	NN	Gender=Fem|Number=Plur	13	obl	_	_
@@ -26775,7 +26777,7 @@
 # text_en = The hymn was well received and the audience demanded an encore.
 1	L'	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No
 2	inno	inno	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
-3	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	accolto	accogliere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 5	positivamente	positivo	ADV	RB	_	4	advmod	_	_
 6	e	e	CCONJ	CC	_	9	cc	_	_
@@ -26995,7 +26997,7 @@
 2	abbazia	abbazia	PROPN	NN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	di	di	ADP	IN	_	4	case	_	Proper=True
 4	Disibodenberg	Disibodenberg	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
-5	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
+5	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
 6	sciolta	sciolto	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 7	e	e	CCONJ	CC	_	8	cc	_	_
 8	cadde	cadere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	_
@@ -27030,7 +27032,7 @@
 2	monastero	monastero	PROPN	NN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	di	di	ADP	IN	_	4	case	_	Proper=True
 4	Rupertsberg	Rupertsberg	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
-5	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
+5	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
 6	distrutto	distruggere	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 7-8	nel	_	_	_	_	_	_	_	_
 7	in	in	ADP	IN	_	9	case	_	_
@@ -27056,7 +27058,7 @@
 # text_en = The displaced nuns were moved to the Eibingen cloister.
 1	Le	il	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	suore	suora	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
-3	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	spostate	spostare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 5-6	al	_	_	_	_	_	_	_	_
 5	a	a	ADP	IN	_	7	case	_	_
@@ -27109,7 +27111,7 @@
 23	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Südbaden	Südbaden	PROPN	NNP	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	24	punct	_	_
-26	dove	dove	PRON	WP	_	27	advmod	_	_
+26	dove	dove	ADV	RB	_	27	advmod	_	_
 27	visse	vivere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	_
 28	fino	fino	ADP	IN	_	30	case	_	_
 29	al	a	ADP	INDT	Gender=Masc|Number=Sing	28	fixed	_	_
@@ -27208,7 +27210,7 @@
 # text = Weiss venne onorato con premi per la letteratura dalle città di Colonia e Brema.
 # text_en = Weiss was honored with the literature prizes from the cities of Cologne and Bremen.
 1	Weiss	Weiss	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
-2	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+2	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 3	onorato	onorare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	con	con	ADP	IN	_	5	case	_	_
 5	premi	premio	NOUN	NN	Gender=Masc|Number=Plur	3	obl	_	_
@@ -27333,7 +27335,7 @@
 19	di	di	ADP	IN	_	21	case	_	_
 20	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	città	città	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	_
-22	dove	dove	PRON	WP	_	26	advmod	_	_
+22	dove	dove	ADV	RB	_	26	advmod	_	_
 23	la	il	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
 24	popolazione	popolazione	NOUN	NN	Gender=Fem|Number=Sing	26	nsubj	_	_
 25	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	26	cop	_	_
@@ -27505,21 +27507,23 @@
 14	,	,	PUNCT	,	_	12	punct	_	_
 15	l'	il	DET	DT	Gender=Fem|Number=Sing	16	det	_	SpaceAfter=No
 16	istituzione	istituzione	NOUN	NN	Gender=Fem|Number=Sing	12	conj	_	_
-17	della	di	PROPN	NN	Gender=Fem|Number=Sing	18	case	_	_
-18	Repubblica	Repubblica	PROPN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
-19	Romana	Romana	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	Proper=True
-20	e	e	CCONJ	CC	_	22	cc	_	_
-21	il	il	DET	DT	Gender=Masc|Number=Sing	22	det	_	_
-22	mos	mos	NOUN	NN	Gender=Masc|Number=Sing	12	conj	_	_
-23	maiorum	maiorum	X	GW	_	22	flat	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	8	punct	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
+19	Repubblica	Repubblica	PROPN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
+20	Romana	Romana	ADJ	JJ	Gender=Fem|Number=Sing	19	amod	_	Proper=True
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	il	il	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
+23	mos	mos	NOUN	NN	Gender=Masc|Number=Sing	12	conj	_	_
+24	maiorum	maiorum	X	GW	_	23	flat	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w03004107
 # text = Tuttavia Pirro venne obbligato a lasciare la Sicilia per occuparsi di altri affari in Italia meridionale.
 # text_en = However, Pyrrhus was forced to leave Sicily in order to attend to business in southern Italy.
 1	Tuttavia	tuttavia	ADV	RB	_	4	advmod	_	_
 2	Pirro	Pirro	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
-3	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	obbligato	obbligare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 5	a	a	ADP	IN	_	6	mark	_	_
 6	lasciare	lasciare	VERB	VB	Voice=Act	4	xcomp	_	_
@@ -27646,7 +27650,7 @@
 23	valle	valle	NOUN	NN	Gender=Fem|Number=Sing	21	conj	_	_
 24	e	e	CCONJ	CC	_	25	cc	_	_
 25	pianura	pianura	NOUN	NN	Gender=Fem|Number=Sing	21	conj	_	_
-26	è	essere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	27	aux:pass	_	_
+26	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	27	aux:pass	_	_
 27	separata	separare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	12	parataxis	_	_
 28-29	dai	_	_	_	_	_	_	_	_
 28	da	da	ADP	IN	_	30	case	_	_
@@ -27748,7 +27752,7 @@
 # text_en = Trade was developed by establishing commercial outposts throughout the Mediterranean, a technique that had not been used until then.
 1	Il	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	commercio	commercio	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
-3	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	sviluppato	sviluppare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 5	stabilendo	stabilire	VERB	VBG	Voice=Act	4	advcl	_	_
 6	avamposti	avamposto	NOUN	NN	Gender=Masc|Number=Plur	5	obj	_	_
@@ -27762,8 +27766,8 @@
 14	tecnica	tecnica|tecnico	NOUN	NN	Gender=Fem|Number=Sing	5	parataxis	_	_
 15	che	che	PRON	WP	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
 16	non	non	ADV	RB	Polarity=Neg	19	advmod	_	_
-17	era	essere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux	_	_
-18	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	19	aux:pass	_	_
+17	era	essere	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	aux	_	_
+18	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	19	aux:pass	_	_
 19	usata	usare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	14	acl:relcl	_	_
 20	fino	fino	ADP	IN	_	22	case	_	_
 21	ad	ad	ADP	IN	_	20	fixed	_	_
@@ -27777,7 +27781,7 @@
 1	Questa	questo	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	relazione	relazione	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	_
-4	essere	essere	VERB	VB	Voice=Pass	5	aux:pass	_	_
+4	essere	essere	AUX	VB	Voice=Pass	5	aux:pass	_	_
 5	considerata	considerare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 6	come	come	ADP	IN	_	7	case	_	_
 7	punto	punto	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
@@ -27843,7 +27847,7 @@
 9	,	,	PUNCT	,	_	1	punct	_	_
 10	queste	questo	DET	DT	Gender=Fem|Number=Plur	11	det	_	_
 11	scuole	scuola	NOUN	NN	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
-12	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
+12	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	13	aux:pass	_	_
 13	chiuse	chiuso	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	0	root	_	_
 14-15	nel	_	_	_	_	_	_	_	_
 14	in	in	ADP	IN	_	16	case	_	_
@@ -28147,7 +28151,7 @@
 1	In	in	ADP	IN	_	3	case	_	_
 2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1928	1928	NUM	CD	_	5	obl	_	_
-4	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
+4	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	aux:pass	_	_
 5	realizzato	realizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 6	il	il	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	campo	campo	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -28265,11 +28269,11 @@
 8	numismatico	numismatico	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	_	_
 10	e	e	CCONJ	CC	_	12	cc	_	_
-11	sono	essere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
+11	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	aux:pass	_	_
 12	destinate	destinare	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	5	conj	_	_
 13	soprattutto	soprattutto	ADV	RB	_	12	advmod	_	_
 14	a	a	ADP	IN	_	16	mark	_	_
-15	essere	essere	VERB	VB	Voice=Pass	16	aux:pass	_	_
+15	essere	essere	AUX	VB	Voice=Pass	16	aux:pass	_	_
 16	vendute	vendere	VERB	VBN	Gender=Fem|Number=Plur|Tense=Past	12	xcomp	_	_
 17-18	ai	_	_	_	_	_	_	_	_
 17	a	a	ADP	IN	_	19	case	_	_
@@ -28326,7 +28330,7 @@
 # sent_id = w04004051
 # text = Venne quindi istituita la Regio II Apulia et Calabria, che includeva anche il Sannio, una parte dell'attuale Molise e la Basilicata orientale.
 # text_en = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
-1	Venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+1	Venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 2	quindi	quindi	ADV	RB	_	3	advmod	_	_
 3	istituita	istituire	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 4	la	il	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -28366,7 +28370,7 @@
 5	il	il	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	nome	nome	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 7	Apulia	Apulia	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	_
-8	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
+8	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux:pass	_	_
 9	utilizzato	utilizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 10	da	da	ADP	IN	_	12	case	_	_
 11	alcuni	alcuno	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
@@ -28547,7 +28551,7 @@
 22	perché	perché	SCONJ	IN	_	26	mark	_	_
 23	nuovi	nuovo	ADJ	JJ	Gender=Masc|Number=Plur	24	amod	_	_
 24	sviluppi	sviluppo	NOUN	NN	Gender=Masc|Number=Plur	26	nsubj	_	_
-25	stavano	stavano	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	26	aux	_	_
+25	stavano	stare	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	26	aux	_	_
 26	avendo	avere	VERB	VBG	Voice=Act	8	advcl	_	_
 27	luogo	luogo	NOUN	NN	Gender=Masc|Number=Sing	26	obj	_	_
 28-29	sul	_	_	_	_	_	_	_	_
@@ -28617,7 +28621,7 @@
 6	religiosa	religioso	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	Fiorello	Fiorello	PROPN	NNP	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
-9	viene	venire	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
+9	viene	venire	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	aux:pass	_	_
 10	educato	educare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 11-12	nella	_	_	_	_	_	_	_	_
 11	in	in	ADP	IN	_	13	case	_	_
@@ -28677,7 +28681,7 @@
 33	ad	ad	ADP	IN	_	32	fixed	_	_
 34	altri	altro	NOUN	NN	Gender=Masc|Number=Plur	37	obl	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	34	punct	_	_
-36	fu	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	37	aux:pass	_	_
+36	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	37	aux:pass	_	_
 37	addestrata	addestrare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	28	ccomp	_	_
 38	da	da	ADP	IN	_	39	case	_	_
 39	bambina	bambino	NOUN	NN	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
@@ -28882,7 +28886,7 @@
 4	che	che	SCONJ	IN	_	8	mark	_	_
 5	il	il	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	tema	tema	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
-7	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
+7	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	aux:pass	_	_
 8	selezionato	selezionato	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	3	ccomp	_	_
 9	intenzionalmente	intenzionalmente	ADV	RB	_	8	advmod	_	_
 10	a	a	ADP	IN	_	14	case	_	_
@@ -29003,7 +29007,7 @@
 2	la	il	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 3	sua	suo	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det:poss	_	_
 4	amministrazione	amministrazione	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
-5	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
+5	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	aux:pass	_	_
 6	approvato	approvare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 7	il	il	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	diritto	diritto	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
@@ -29017,20 +29021,20 @@
 15	i	il	DET	DT	Gender=Masc|Number=Plur	16	det	_	_
 16	partiti	partito	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj:pass	_	_
 17	politici	politico	ADJ	JJ	Gender=Masc|Number=Plur	16	amod	_	_
-18	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
+18	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	aux:pass	_	_
 19	legalizzati	legalizzare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	6	conj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	25	punct	_	_
 21	tutti	tutto	ADJ	JJ	Gender=Masc|Number=Plur	23	amod	_	_
 22	gli	il	DET	DT	Gender=Masc|Number=Plur	23	det	_	_
 23	esiliati	esiliato	NOUN	NN	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
-24	furono	essere	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	25	aux:pass	_	_
+24	furono	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	25	aux:pass	_	_
 25	autorizzati	autorizzare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	6	conj	_	_
 26	a	a	ADP	IN	_	27	mark	_	_
 27	tornare	tornare	VERB	VB	Voice=Act	25	xcomp	_	_
 28	e	e	CCONJ	CC	_	32	cc	_	_
 29	prigionieri	prigioniero	NOUN	NN	Gender=Masc|Number=Plur	32	nsubj	_	_
 30	politici	politico	ADJ	JJ	Gender=Masc|Number=Plur	29	amod	_	_
-31	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	32	aux:pass	_	_
+31	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	32	aux:pass	_	_
 32	liberati	liberare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	6	conj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -29190,7 +29194,7 @@
 16	perché	perché	SCONJ	IN	_	20	mark	_	_
 17	i	il	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
 18	colonizzatori	colonizzatori	NOUN	NN	Gender=Masc|Number=Plur	20	nsubj	_	_
-19	stavano	stavano	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	aux	_	_
+19	stavano	stare	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	aux	_	_
 20	espropriando	espropriare	VERB	VBG	Voice=Act	13	advcl	_	_
 21	sempre	sempre	ADV	RB	_	22	advmod	_	_
 22	più	più	ADV	RBR	_	23	advmod	_	_
@@ -29207,7 +29211,7 @@
 # text_en = The expedition was led by General Joseph Burgoyne who intended to reach Albany.
 1	La	il	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	spedizione	spedizione	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
-3	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	guidata	guidare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	0	root	_	_
 5-6	dal	_	_	_	_	_	_	_	_
 5	da	da	ADP	IN	_	7	case	_	_
@@ -29228,7 +29232,7 @@
 # text_en = However, they were intercepted and had to do battle in Freeman, close to the Hudson River.
 1	Tuttavia	tuttavia	ADV	RB	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	vennero	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
+3	vennero	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	4	aux:pass	_	_
 4	bloccati	bloccare	VERB	VBN	Gender=Masc|Number=Plur|Tense=Past	0	root	_	_
 5	e	e	CCONJ	CC	_	7	cc	_	_
 6	dovettero	dovere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	aux	_	_
@@ -29328,8 +29332,8 @@
 4	la	il	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
 5	legge	legge	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
 6	inglese	inglese	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	Proper=True
-7	fosse	essere	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux	_	_
-8	stata	essere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	9	aux:pass	_	_
+7	fosse	essere	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	aux	_	_
+8	stata	essere	AUX	VBN	Gender=Fem|Number=Sing|Tense=Past	9	aux:pass	_	_
 9	accettata	accettare	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	23	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	le	il	DET	DT	Gender=Fem|Number=Plur	12	det	_	_
@@ -29527,7 +29531,7 @@
 # text = Cesare venne informato personalmente delle azioni di Pompeo da Curio, che a quel tempo aveva finito il suo mandato.
 # text_en = César was personally informed of Pompey's actions by Curio, who at that time had finished his term in office.
 1	Cesare	Cesare	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
-2	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
+2	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	aux:pass	_	_
 3	informato	informare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 4	personalmente	personalmente	ADV	RB	_	3	advmod	_	_
 5-6	delle	_	_	_	_	_	_	_	_
@@ -29565,7 +29569,7 @@
 8	in	in	ADP	IN	_	10	case	_	_
 9	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Tribuno	Tribuno	PROPN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
-11	venne	venire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
+11	venne	venire	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	aux:pass	_	_
 12	occupato	occupare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	0	root	_	_
 13	da	da	ADP	IN	_	14	case	_	_
 14	Marco	Marco	PROPN	NNP	Gender=Masc|Number=Sing	12	obl	_	_
