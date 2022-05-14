@@ -2444,7 +2444,7 @@
 28	gruppo	gruppo	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	_
 29	di	di	ADP	IN	_	30	case	_	_
 30	persone	persona	NOUN	NN	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
-31	…	…	PUNCT	NFP	_	30	punct	_	OrigForm=...
+31	…	…	PUNCT	NFP	_	30	punct	_	_
 32	che	che	PRON	WP	Gender=Fem|Number=Plur	35	nsubj	_	_
 33	si	si	PRON	SE	Number=Plur|Person=3	35	expl	_	_
 34	sono	essere	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	aux	_	_
@@ -6246,7 +6246,7 @@
 11	a	a	ADP	IN	_	13	case	_	_
 12	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	credito	credito	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
-14	…	…	PUNCT	NFP	_	10	punct	_	OrigForm=...
+14	…	…	PUNCT	NFP	_	10	punct	_	_
 15	ma	ma	CCONJ	CC	_	31	cc	_	_
 16	mentre	mentre	SCONJ	IN	_	21	mark	_	_
 17	questo	questo	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
@@ -9270,7 +9270,7 @@
 4	l'	il	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	SpaceAfter=No
 5	ho	avere	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	aux	_	_
 6	scelta	scegliere	VERB	VBN	Gender=Fem|Number=Sing|Tense=Past	2	ccomp	_	SpaceAfter=No
-7	…	…	PUNCT	.	_	2	punct	_	OrigForm=...
+7	…	…	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01127130
 # text = All'Alta Corte di Hong Kong, due anni dopo, Jutting è apparso prevalentemente calmo.
@@ -11183,7 +11183,7 @@
 2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	V	V	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
 4	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	24	obl	_	_
-5	a.C.	a.C.	SYM	SYM	_	4	obl:tmod	_	OrigForm=aC
+5	a.C.	a.C.	SYM	SYM	_	4	obl:tmod	_	_
 6	la	il	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	città	città	NOUN	NN	Gender=Fem|Number=Sing	24	nsubj	_	_
 8	stato	stato	NOUN	NN	Gender=Masc|Number=Sing	7	compound	_	_
@@ -11290,7 +11290,7 @@
 7	512	512	NUM	CD	_	19	obl	_	SpaceAfter=No
 8	-	-	PUNCT	-	_	7	punct	_	SpaceAfter=No
 9	511	511	NUM	CD	_	7	conj	_	_
-10	a.C.	a.C.	SYM	SYM	_	7	obl:tmod	_	OrigForm=aC
+10	a.C.	a.C.	SYM	SYM	_	7	obl:tmod	_	_
 11	circa	circa	ADV	RB	_	7	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	7	punct	_	_
 13	il	il	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
@@ -11676,7 +11676,7 @@
 23	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	VI	VI	ADJ	JJ	Gender=Masc|Number=Sing	25	amod	_	_
 25	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	21	obl	_	_
-26	d.C.	d.C.	SYM	SYM	_	25	obl:tmod	_	OrigForm=dC
+26	d.C.	d.C.	SYM	SYM	_	25	obl:tmod	_	_
 
 # sent_id = w01010045
 # text = Alla fine dell'VIII secolo, il Principato di Moravia diventò una regione che comprendeva l'odierna Moravia, Záhorie nella Slovacchia sud-occidentale e parti della Bassa Austria.
@@ -11726,7 +11726,7 @@
 1	In	in	ADP	IN	_	3	case	_	_
 2	l'	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	833	833	NUM	CD	_	6	obl	_	_
-4	d.C.	d.C.	SYM	SYM	_	3	obl:tmod	_	OrigForm=dC
+4	d.C.	d.C.	SYM	SYM	_	3	obl:tmod	_	_
 5	questo	questo	PRON	PRP	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	divenne	divenire	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 7	lo	il	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -13559,7 +13559,7 @@
 5	intorno	intorno	ADV	RB	_	7	case	_	_
 6	al	a	ADP	INDT	Gender=Masc|Number=Sing	5	fixed	_	_
 7	1000	1000	NUM	CD	_	3	obl	_	_
-8	a.C.	a.C.	SYM	SYM	_	7	obl:tmod	_	OrigForm=aC|SpaceAfter=No
+8	a.C.	a.C.	SYM	SYM	_	7	obl:tmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	periodo	periodo	NOUN	NN	Gender=Masc|Number=Sing	7	appos	_	_
 11	in	in	ADP	IN	_	12	case	_	_
@@ -16089,7 +16089,7 @@
 31	intorno	intorno	ADV	RB	_	33	case	_	_
 32	al	a	ADP	INDT	Gender=Masc|Number=Sing	31	fixed	_	_
 33	1600	1600	NUM	CD	_	16	obl	_	_
-34	p.e.v.	p.e.v.	NOUN	NN	Gender=Fem|Number=Sing	33	obl:tmod	_	OrigForm=pev
+34	p.e.v.	p.e.v.	NOUN	NN	Gender=Fem|Number=Sing	33	obl:tmod	_	_
 
 # sent_id = w01065020
 # text = La città cananea fu distrutta da un incendio, presumibilmente subito dopo una campagna condotta dal faraone egizio Thutmose III.
@@ -16168,7 +16168,7 @@
 12	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	XIV	XIV	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
 14	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
-15	p.e.v.	p.e.v.	NOUN	NN	Gender=Fem|Number=Sing	14	obl:tmod	_	OrigForm=pev|SpaceAfter=No
+15	p.e.v.	p.e.v.	NOUN	NN	Gender=Fem|Number=Sing	14	obl:tmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	10	punct	_	_
 17	comprendono	comprendere	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 18	dieci	dieci	NUM	CD	_	19	nummod	_	_
@@ -16628,7 +16628,7 @@
 15	intorno	intorno	ADV	RB	_	17	case	_	_
 16	al	a	ADP	INDT	Gender=Masc|Number=Sing	15	fixed	_	_
 17	1900	1900	NUM	CD	_	11	obl	_	_
-18	a.C.	a.C.	SYM	SYM	_	17	obl:tmod	_	OrigForm=aC
+18	a.C.	a.C.	SYM	SYM	_	17	obl:tmod	_	_
 19	e	e	CCONJ	CC	_	21	cc	_	_
 20	fu	essere	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	21	aux:pass	_	_
 21	utilizzato	utilizzare	VERB	VBN	Gender=Masc|Number=Sing|Tense=Past	11	conj	_	_
@@ -16646,7 +16646,7 @@
 31	fino	fino	ADP	IN	_	33	case	_	_
 32	al	a	ADP	INDT	Gender=Masc|Number=Sing	31	fixed	_	_
 33	700	700	NUM	CD	_	27	obl	_	_
-34	a.C.	a.C.	SYM	SYM	_	33	obl:tmod	_	OrigForm=aC
+34	a.C.	a.C.	SYM	SYM	_	33	obl:tmod	_	_
 35	circa	circa	ADV	RB	_	33	advmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -24990,7 +24990,7 @@
 15	il	il	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	gasolio	gasolio	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	costa	costare	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	_
-18	1,335	1,335	NUM	CD	_	19	nummod	_	OrigForm=1335
+18	1,335	1,335	NUM	CD	_	19	nummod	_	_
 19	euro	euro	NOUN	NN	Gender=Masc|Number=Plur	17	obl	_	_
 20-21	al	_	_	_	_	_	_	_	_
 20	a	a	ADP	IN	_	22	case	_	_
@@ -25005,7 +25005,7 @@
 28	l'	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	eurozona	eurozona	NOUN	NN	Gender=Fem|Number=Sing	26	nmod	_	_
 30	di	di	ADP	IN	_	32	case	_	_
-31	1,165	1,165	NUM	CD	_	32	nummod	_	OrigForm=1165
+31	1,165	1,165	NUM	CD	_	32	nummod	_	_
 32	euro	euro	NOUN	NN	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -25033,7 +25033,7 @@
 17	è	essere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	_
 18	pari	pari	ADJ	JJ	Gender=Masc|Number=Sing	7	acl:relcl	_	_
 19	a	a	ADP	IN	_	21	case	_	_
-20	1,365	1,365	NUM	CD	_	21	nummod	_	OrigForm=1365
+20	1,365	1,365	NUM	CD	_	21	nummod	_	_
 21	euro	euro	NOUN	NN	Gender=Masc|Number=Plur	18	obl	_	_
 22-23	al	_	_	_	_	_	_	_	_
 22	a	a	ADP	IN	_	24	case	_	_
@@ -26611,7 +26611,7 @@
 21	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	V	V	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
 23	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	19	nmod	_	_
-24	a.C.	a.C.	SYM	SYM	_	23	obl:tmod	_	OrigForm=aC
+24	a.C.	a.C.	SYM	SYM	_	23	obl:tmod	_	_
 
 # sent_id = w02008038
 # text = Probabilmente la persona più celebre dell'età del rame è Ötzi, la mummia congelata che visse nel 3300 a.C.
@@ -26641,7 +26641,7 @@
 20	in	in	ADP	IN	_	22	case	_	_
 21	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	3300	3300	NUM	CD	_	19	obl	_	_
-23	a.C.	a.C.	SYM	SYM	_	22	obl:tmod	_	OrigForm=aC
+23	a.C.	a.C.	SYM	SYM	_	22	obl:tmod	_	_
 
 # sent_id = w02008055
 # text = Si trovavano principalmente sulle colline.
@@ -27550,7 +27550,7 @@
 2	l'	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	VIII	VIII	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
 4	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
-5	a.C	a.C	SYM	SYM	_	4	obl:tmod	_	OrigForm=aC|SpaceAfter=No
+5	a.C	a.C	SYM	SYM	_	4	obl:tmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
 7	la	il	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	Grecia	Grecia	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -27619,7 +27619,7 @@
 9	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	IX	IX	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	_
 11	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
-12	a.C.	a.C.	SYM	SYM	_	11	obl:tmod	_	OrigForm=aC
+12	a.C.	a.C.	SYM	SYM	_	11	obl:tmod	_	_
 
 # sent_id = w03005015
 # text = La Grecia era divisa in molte piccole comunità autogovernate, un modello largamente dettato dalla geografia greca: ogni isola, valle e pianura è separata dai luoghi vicini dal mare o dalle catene montuose.
@@ -27682,7 +27682,7 @@
 8	all'	a	ADP	INDT	Gender=Masc|Number=Sing	7	fixed	_	SpaceAfter=No
 9	VIII	VIII	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
 10	secolo	secolo	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
-11	a.C	a.C	SYM	SYM	_	10	obl:tmod	_	OrigForm=aC|SpaceAfter=No
+11	a.C	a.C	SYM	SYM	_	10	obl:tmod	_	SpaceAfter=No
 12	:	:	PUNCT	:	_	4	punct	_	_
 13	piccoli	piccolo	ADJ	JJ	Gender=Masc|Number=Plur	14	amod	_	_
 14	territori	territorio	NOUN	NN	Gender=Masc|Number=Plur	4	parataxis	_	_
@@ -29649,7 +29649,7 @@
 2	1	1	NUM	CD	_	9	obl	_	_
 3	gennaio	gennaio	NOUN	NN	Gender=Masc|Number=Sing	2	flat	_	_
 4	49	49	NUM	CD	_	2	flat	_	_
-5	d.C.	d.C.	SYM	SYM	_	2	flat	_	OrigForm=dC|SpaceAfter=No
+5	d.C.	d.C.	SYM	SYM	_	2	flat	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	Marco	Marco	PROPN	NNP	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	Antonio	Antonio	PROPN	NNP	Gender=Masc|Number=Sing	7	flat	_	_
