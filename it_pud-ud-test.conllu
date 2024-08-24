@@ -6543,7 +6543,7 @@
 # text_en = The world may be enraging and absurd – yet at least someone has the self-respect to keep protesting against that fact.
 1	Il	il	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	mondo	mondo	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	può	potere	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	_
+3	può	potere	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	_
 4	essere	essere	AUX	VBC	Voice=Act	5	cop	_	_
 5	furente	furente	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 6	e	e	CCONJ	CC	_	7	cc	_	_
