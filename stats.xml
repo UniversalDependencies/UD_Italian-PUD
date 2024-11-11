@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>22182</tokens><words>23731</words><fused>1547</fused></total>
+    <total><sentences>1000</sentences><tokens>22183</tokens><words>23732</words><fused>1547</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>22182</tokens><words>23731</words><fused>1547</fused></test>
+    <test><sentences>1000</sentences><tokens>22183</tokens><words>23732</words><fused>1547</fused></test>
   </size>
   <lemmas unique="4682" /><!-- il, di, ,, ., in, essere, a, uno, e, che, avere, da, per, si, " -->
   <forms unique="6124" /><!-- di, ,, ., il, la, in, a, l', e, i, che, le, un, per, da -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">1615</tag><!-- nuovo, primo, grande, maggiore, tutto, ultimo, stesso, nazionale, politico, americano -->
     <tag name="ADP">3808</tag><!-- di, in, a, da, per, con, su, come, tra, dopo -->
     <tag name="ADV">849</tag><!-- non, più, anche, tuttavia, solo, ancora, inoltre, dove, già, prima -->
-    <tag name="AUX">983</tag><!-- essere, avere, venire, potere, dovere, stare, volere, sapere -->
+    <tag name="AUX">985</tag><!-- essere, avere, venire, potere, dovere, stare, volere, sapere -->
     <tag name="CCONJ">582</tag><!-- e, ma, o, che, sia, mentre, quindi, né, oppure, ovvero -->
     <tag name="DET">3785</tag><!-- il, uno, questo, altro, molto, alcuno, ogni, ciò, quello, diverso -->
     <tag name="NOUN">4392</tag><!-- anno, parte, volta, città, persona, giorno, governo, tempo, guerra, stato -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2303</tag><!-- ,, ., ", -, (, ), :, ?, ;, – -->
     <tag name="SCONJ">218</tag><!-- che, quando, se, perché, mentre, come, sebbene, nonostante, poiché, finché -->
     <tag name="SYM">49</tag><!-- %, £, a.C., d.C., a.C, &, /, B-29, ° -->
-    <tag name="VERB">2055</tag><!-- avere, fare, affermare, essere, considerare, dire, diventare, iniziare, portare, trovare -->
+    <tag name="VERB">2054</tag><!-- avere, fare, affermare, essere, considerare, dire, diventare, iniziare, portare, trovare -->
     <tag name="X">24</tag><!-- capite, e-mail, media, nord-occidentale, Lady, Mare, Nostrum, austro-prussiano, co-protagonisti, designer -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -64,7 +64,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">48</feat><!-- sarà, dovrà, saranno, terrà, Passerà, Suoneranno, Valuteremo, aiuterà, aumenteranno, avrà -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1396</feat><!-- era, fu, stato, venne, aveva, affermato, erano, stata, avevano, fosse -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">1048</feat><!-- è, ha, sono, hanno, può, afferma, possono, potrebbe, sta, sarebbe -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">2129</feat><!-- è, ha, sono, era, hanno, aveva, fu, può, avere, essere -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2130</feat><!-- è, ha, sono, era, hanno, aveva, fu, può, essere, avere -->
     <feat name="Voice" value="Pass" upos="AUX,VERB">337</feat><!-- venne, è, fu, essere, vennero, sono, furono, vengono, era, veniva -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -75,17 +75,17 @@
     <dep name="advmod">777</dep>
     <dep name="amod">1395</dep>
     <dep name="appos">97</dep>
-    <dep name="aux">462</dep>
+    <dep name="aux">463</dep>
     <dep name="aux:pass">222</dep>
     <dep name="case">3443</dep>
     <dep name="cc">589</dep>
     <dep name="ccomp">137</dep>
     <dep name="compound">48</dep>
     <dep name="conj">662</dep>
-    <dep name="cop">298</dep>
+    <dep name="cop">299</dep>
     <dep name="csubj">34</dep>
     <dep name="csubj:pass">6</dep>
-    <dep name="dep">2</dep>
+    <dep name="dep">1</dep>
     <dep name="det">3751</dep>
     <dep name="det:poss">230</dep>
     <dep name="discourse">1</dep>
