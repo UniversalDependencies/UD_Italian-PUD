@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added PronType=Art for articles where it was missing.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
