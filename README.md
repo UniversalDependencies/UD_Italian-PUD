@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added PronType=Art for articles where it was missing.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
@@ -108,8 +110,9 @@ Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
+Parallel: pud
 Genre: news wiki
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
