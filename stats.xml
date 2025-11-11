@@ -56,7 +56,7 @@
     <feat name="Person" value="2" upos="AUX,PRON,VERB">9</feat><!-- Devi, Fa', Litighi, Metti, avete, hai, te, vi, voi -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2167</feat><!-- è, si, ha, sono, sua, era, loro, suo, fu, hanno -->
     <feat name="Polarity" value="Neg" upos="ADV">117</feat><!-- non, no -->
-    <feat name="PronType" value="Art" upos="DET">1476</feat><!-- il, la, l', i, le, gli, lo -->
+    <feat name="PronType" value="Art" upos="DET">3493</feat><!-- il, la, l', i, le, un, una, gli, lo, un' -->
     <feat name="PronType" value="Dem" upos="PRON">16</feat><!-- quella, quello, quelli -->
     <feat name="PronType" value="Ind" upos="NOUN">2</feat><!-- altro, un -->
     <feat name="PronType" value="Prs" upos="DET,PRON">227</feat><!-- sua, suo, loro, sue, suoi, propria, propri, nostra, nostro, mia -->
