@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Italian-PUD:
-commit aaf7151a769f0cd26356434fbf7a9abba026e281
-Merge: f321a0a bae2181
+commit ac7e8848a0e01b44ca68a1b9193461582b922283
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:50:17 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'it_pud'
 Language code (from CoNLL-U file name) = 'it'
@@ -25,23 +25,42 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-PUD/it_pud-ud-test.conllu
-[Line 30 Sent n01001011]: [L3 Warning pron-det-without-prontype] The word 'lo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 55 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'chiunque' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 68 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'questo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 82 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'si' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 140 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'vi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 153 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'voi' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 258 Sent n01003010]: [L3 Warning pron-det-without-prontype] The word 'si' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 284 Sent n01003010]: [L3 Warning pron-det-without-prontype] The word 'altri' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 313 Sent n01003012]: [L3 Warning pron-det-without-prontype] The word 'pochi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 341 Sent n01004009]: [L3 Warning fixed-without-extpos] Fixed expression 'Invece di' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 4997 Sent n01061016]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('man')
-[Line 20879 Sent w01119076]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('Una')
-[Line 22456 Sent w01140031]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('Una')
-Syntax errors: 3
-Warnings: 1060
-*** FAILED *** with 3 errors
+[Line 30 Sent n01001011]: [L3 WARNING pron-det-without-prontype] The word 'lo' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 55 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'chiunque' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 68 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'questo' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 82 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'si' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 140 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'vi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 153 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'voi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 258 Sent n01003010]: [L3 WARNING pron-det-without-prontype] The word 'si' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 284 Sent n01003010]: [L3 WARNING pron-det-without-prontype] The word 'altri' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 313 Sent n01003012]: [L3 WARNING pron-det-without-prontype] The word 'pochi' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 341 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'Invece di' does not have the 'ExtPos' feature
+[Line 349 Sent n01004009]: [L3 WARNING pron-det-without-prontype] The word 'lo' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 392 Sent n01004017]: [L3 WARNING fixed-without-extpos] Fixed expression 'intorno alla' does not have the 'ExtPos' feature
+[Line 518 Sent n01005031]: [L3 WARNING fixed-without-extpos] Fixed expression 'intorno ai' does not have the 'ExtPos' feature
+[Line 598 Sent n01008017]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima del' does not have the 'ExtPos' feature
+[Line 751 Sent n01011011]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+[Line 874 Sent n01014003]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino al' does not have the 'ExtPos' feature
+[Line 1511 Sent n01021011]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'attacchi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1680 Sent n01022010]: [L3 WARNING fixed-without-extpos] Fixed expression 'così come' does not have the 'ExtPos' feature
+[Line 1893 Sent n01024010]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'più') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1934 Sent n01024010]: [L3 SYNTAX obl-should-be-nmod] The parent (node [39] 'più') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1979 Sent n01024013]: [L3 WARNING fixed-without-extpos] Fixed expression 'senza che' does not have the 'ExtPos' feature
+[Line 2461 Sent n01030006]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie al' does not have the 'ExtPos' feature
+[Line 2507 Sent n01030008]: [L3 WARNING fixed-without-extpos] Fixed expression 'a seguito dell'' does not have the 'ExtPos' feature
+[Line 2876 Sent n01035004]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'distribuzione') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 4997 Sent n01061016]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('man')
+[Line 8316 Sent n01107010]: [L3 SYNTAX obl-should-be-nmod] The parent (node [18] 'rivelazione') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11570 Sent w01004051]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'secolo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12079 Sent w01010044]: [L3 SYNTAX obl-should-be-nmod] The parent (node [25] 'secolo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12891 Sent w01020018]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'causa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15927 Sent w01053045]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'conversione') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 1038
+SYNTAX errors: 25
+*** FAILED *** with 25 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
