@@ -36,6 +36,10 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2026-08-31
+  * Split 51 ADP+DET contractions ("preposizioni articolate") that had been
+    annotated as single ADP tokens carrying Gender/Number features into
+    ADP + DET multiword tokens, matching the analysis used in UD_Italian-ISDT.
 * 2025-11-15 v2.17
   * Added PronType=Art for articles where it was missing.
 * 2017-11-15 v2.1
