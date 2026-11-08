@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>22183</tokens><words>23732</words><fused>1547</fused></total>
+    <total><sentences>1000</sentences><tokens>22183</tokens><words>23783</words><fused>1598</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>22183</tokens><words>23732</words><fused>1547</fused></test>
+    <test><sentences>1000</sentences><tokens>22183</tokens><words>23783</words><fused>1598</fused></test>
   </size>
   <lemmas unique="4682" /><!-- il, di, ,, ., in, essere, a, uno, e, che, avere, da, per, si, " -->
-  <forms unique="6124" /><!-- di, ,, ., il, la, in, a, l', e, i, che, le, un, per, da -->
-  <fusions unique="99" /><!-- del, della, nel, dell', al, dei, alla, delle, all', nella, degli, nell', dal, nei, nelle -->
+  <forms unique="6111" /><!-- di, il, ,, ., la, in, a, l', e, i, che, le, un, da, per -->
+  <fusions unique="99" /><!-- del, della, nel, al, dell', dei, alla, delle, all', nella, degli, nell', dal, nei, dalla -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">1615</tag><!-- nuovo, primo, grande, maggiore, tutto, ultimo, stesso, nazionale, politico, americano -->
@@ -20,7 +20,7 @@
     <tag name="ADV">849</tag><!-- non, più, anche, tuttavia, solo, ancora, inoltre, dove, già, prima -->
     <tag name="AUX">985</tag><!-- essere, avere, venire, potere, dovere, stare, volere, sapere -->
     <tag name="CCONJ">582</tag><!-- e, ma, o, che, sia, mentre, quindi, né, oppure, ovvero -->
-    <tag name="DET">3785</tag><!-- il, uno, questo, altro, molto, alcuno, ogni, ciò, quello, diverso -->
+    <tag name="DET">3836</tag><!-- il, uno, questo, altro, molto, alcuno, ogni, ciò, quello, diverso -->
     <tag name="NOUN">4392</tag><!-- anno, parte, volta, città, persona, giorno, governo, tempo, guerra, stato -->
     <tag name="NUM">444</tag><!-- due, uno, tre, 10, milione, 1, quattro, 3, sei, 20 -->
     <tag name="PART">7</tag><!-- avanti, 's, ci, fuori, via -->
@@ -38,11 +38,11 @@
     <feat name="Aspect" value="Perf" upos="AUX,VERB">405</feat><!-- fu, venne, vennero, furono, iniziò, ebbe, dichiarò, diventò, portò, divenne -->
     <feat name="Case" value="Acc" upos="PRON">106</feat><!-- lo, gli, ne, lui, l', le, mi, la, ci, lei -->
     <feat name="Case" value="Nom" upos="PRON">6</feat><!-- lei, egli, essi, io, lui -->
-    <feat name="Definite" value="Def" upos="DET">1476</feat><!-- il, la, l', i, le, gli, lo -->
+    <feat name="Definite" value="Def" upos="DET">1527</feat><!-- il, la, l', i, le, gli, lo -->
     <feat name="Degree" value="Abs" upos="ADJ">14</feat><!-- massima, Suprema, massime, miglior, migliori, minime, moltissime, moltissimi, piccolissima, piccolissimi -->
     <feat name="Degree" value="Sup" upos="ADJ">22</feat><!-- maggior, maggiore, migliori, maggiori, miglior, migliore, peggior, peggiori -->
     <feat name="Foreign" value="Yes" upos="X">1</feat><!-- Nostrum -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">5429</feat><!-- la, le, l', una, che, sua, parte, un', città, guerra -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">5429</feat><!-- la, le, l', una, che, sua, parte, un', città, guerra -->
     <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">7272</feat><!-- il, i, un, l', gli, che, lo, anni, stato, suo -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">54</feat><!-- potrebbe, sarebbe, avrebbe, potrebbero, dovrebbe, avrebbero, dovrebbero, verrebbe, Avrei, Sarei -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">3</feat><!-- Devi, Fa', Metti -->
@@ -56,7 +56,7 @@
     <feat name="Person" value="2" upos="AUX,PRON,VERB">9</feat><!-- Devi, Fa', Litighi, Metti, avete, hai, te, vi, voi -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">2167</feat><!-- è, si, ha, sono, sua, era, loro, suo, fu, hanno -->
     <feat name="Polarity" value="Neg" upos="ADV">117</feat><!-- non, no -->
-    <feat name="PronType" value="Art" upos="DET">3493</feat><!-- il, la, l', i, le, un, una, gli, lo, un' -->
+    <feat name="PronType" value="Art" upos="DET">3544</feat><!-- il, la, l', i, le, un, una, gli, lo, un' -->
     <feat name="PronType" value="Dem" upos="PRON">16</feat><!-- quella, quello, quelli -->
     <feat name="PronType" value="Ind" upos="NOUN">2</feat><!-- altro, un -->
     <feat name="PronType" value="Prs" upos="DET,PRON">227</feat><!-- sua, suo, loro, sue, suoi, propria, propri, nostra, nostro, mia -->
@@ -86,7 +86,7 @@
     <dep name="csubj">34</dep>
     <dep name="csubj:pass">6</dep>
     <dep name="dep">1</dep>
-    <dep name="det">3751</dep>
+    <dep name="det">3802</dep>
     <dep name="det:poss">230</dep>
     <dep name="discourse">1</dep>
     <dep name="expl">227</dep>
